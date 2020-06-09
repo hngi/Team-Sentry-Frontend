@@ -45,6 +45,55 @@ img {
 
 /* NavBar styles */
 
+#header-nav {
+  background: var(--theme-color);
+  height: 50px;
+}
+
+#header-nav ul {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: flex-end;
+}
+
+#header-nav a {
+  color: white;
+}
+
+#header-nav li {
+  color: white;
+  margin-left: 2rem;
+}
+#logo {
+  height: 110px;
+  width: 274px;
+}
+/* main nav */
+#main-nav {
+  margin-bottom: var(--theme-color);
+}
+
+#main-nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav li {
+  margin-left: 2rem;
+}
+
+#main-nav a {
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
 header {
   background-color: #fff;
   border-bottom: 1px solid var(--theme-color);
@@ -398,8 +447,8 @@ main > section.showcase .page-breaker {
 .footer-content-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .footer-content-right .form-container {
@@ -465,12 +514,14 @@ main > section.showcase .page-breaker {
 .footer-content-right .social-icons {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
+  margin-top: 2em;
 }
 
+.footer-content-right .social-icons a {
+  margin-left: 1em;
+}
 
-
-/* tablet */
 
 
 
