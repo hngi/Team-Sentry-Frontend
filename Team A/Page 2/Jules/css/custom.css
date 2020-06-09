@@ -1,0 +1,139 @@
+* {
+    font-family: Poppins;
+}
+
+body {
+    background-color: background: #E5E5E5;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url('../img/Mask%20Group%2010%201.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100 vw;
+    height: 222px;
+}
+
+header div.container {
+    width: auto;
+    height: inherit
+}
+
+header div div a.headerlink {
+    text-decoration: none;
+}
+
+header div div a h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+
+}
+
+header div div a h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #E6B922;
+    margin-bottom: -10px;
+
+}
+
+header div div a h6 {
+    ont-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+section h1.text-center {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #412A1E;
+}
+
+section h5.text-center {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+
+div section div a.roomlink {
+    text-decoration: none;
+}
+
+div section div a div h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #412A1E;
+}
+
+div section div a div h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #412A1E;
+}
+
+div section div a div h6 small.smallText {
+    color: #E6B922;
+}
+
+div section div.card:hover {
+    transform: translateY(15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+    div section.card-columns {
+        column-count: 1;
+    }
+    
+    div section div.card{
+        margin: 50px
+    }
+}
+
+@media (min-width: 576px) {
+    div section.card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    div section.card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    div section.card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    div section.card-columns {
+        column-count: 3;
+    }
+}
