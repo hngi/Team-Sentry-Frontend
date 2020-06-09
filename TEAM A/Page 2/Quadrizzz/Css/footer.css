@@ -1,0 +1,43 @@
+:root {
+    --yellow: #e6b922;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .footer {
+    background-color: #412a1e;
+    color: #b5b5b5;
+  }
+  
+  .footer__link {
+    color: inherit;
+  }
+  
+  .footer__link:hover {
+    color: #ffffff;
+  }
+  
+  .footer__logo {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .footer__feeds {
+    width: 20%;
+  }
+
+  form{
+      display: flex;
+      flex-direction:row;
+      padding: 10px;
+
+    }
+
+    form input, form button{
+        outline: none;
+    }
