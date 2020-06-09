@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Montserrat;
+  font-family: 'Montserrat' sans-serif;
 }
 
 li {
@@ -48,6 +48,7 @@ img {
 header {
   background-color: #fff;
   border-bottom: 1px solid var(--theme-color);
+  width: 100vw;
 }
 
 header > .site-meta {
@@ -101,6 +102,10 @@ header > nav .links {
   flex: 1;
   align-items: center;
   justify-content: flex-end;
+}
+
+header > nav .hamburger {
+  display: none;
 }
 
 header > nav .links li {
@@ -398,8 +403,6 @@ main > section.showcase .page-breaker {
 }
 
 .footer-content-right .form-container {
-  width: 532px;
-  height: 109px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -465,6 +468,9 @@ main > section.showcase .page-breaker {
   align-items: flex-start;
 }
 
+
+
+/* tablet */
 
 
 
