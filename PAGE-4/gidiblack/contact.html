@@ -54,6 +54,7 @@
   <section class="contact-us">
       <div class="container">
           <div class="row">
+              <!-- contact form -->
             <form action="" id="contact" class="col-lg-6 row">
                 <fieldset class="form-group col-md-6">
                     <input type="text" name="name" id="name" class="form-control" placeholder="Name" aria-placeholder="Name">
@@ -66,10 +67,72 @@
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>
+            <!-- address tabs -->
             <div class="col-lg-6">
-                <h2>something</h2>
+                <ul class="nav nav-pills nav-fill" id="address-tabs" role="tablist">
+                    <li class="nav-item active">
+                      <a class="nav-link" id="lagos-tab" data-toggle="tab" href="#lagos" role="tab" aria-controls="lagos" aria-selected="true">Lagos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="abuja-tab" data-toggle="tab" href="#abuja" role="tab" aria-controls="abuja" aria-selected="false">Abuja</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="kwara-tab" data-toggle="tab" href="#kwara" role="tab" aria-controls="kwara" aria-selected="false">Kwara</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="addressTabContents">
+                    <div class="tab-pane fade active in" id="lagos" role="tabpanel" aria-labelledby="lagos-tab">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <span>Quarter 38F, First Cooper Road, Ebute Metta.</span>
+                        <br>
+                        <i class="fa fa-phone"></i>
+                        <span>+234 805 525 1613, +234 703 796 5335</span>
+                        <br>
+                        <i class="fa fa-envelope"></i>
+                        <span>edges@info.com</span>
+                        <div class="ad-icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="abuja" role="tabpanel" aria-labelledby="abuja-tab">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <span>Quarter 38F, First Cooper Road, Ebute Metta.</span>
+                        <br>
+                        <i class="fa fa-phone"></i>
+                        <span>+234 805 525 1613, +234 703 796 5335</span>
+                        <br>
+                        <i class="fa fa-envelope"></i>
+                        <span>edges@info.com</span>
+                        <div class="ad-icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="kwara" role="tabpanel" aria-labelledby="kwara-tab">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <span>Quarter 38F, First Cooper Road, Ebute Metta.</span>
+                        <br>
+                        <i class="fa fa-phone"></i>
+                        <span>+234 805 525 1613, +234 703 796 5335</span>
+                        <br>
+                        <i class="fa fa-envelope"></i>
+                        <span>edges@info.com</span>
+                        <div class="ad-icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                  </div>
             </div>
           </div>
+          <img src="img/map-img.png" class="map-img" alt="map-image">
       </div>
   </section>
 
