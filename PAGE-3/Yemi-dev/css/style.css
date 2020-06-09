@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+/* the heading of the facilities section */
+header {
+    text-transform: uppercase;
+   
+}
+
+.heading1 {
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    margin: 2em 1em;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+/* for the line under the heading */
+span {
+    border-bottom: 4px solid #a67153;
+    padding-bottom: .6rem;
+}
+/* layout of the section */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    padding: .2em .7em;
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: .2em .7em;
+    width: 100%;
+}
+
+
+.pool_text {
+    padding: 7%;
+    text-align: center;
+    width: 50%;
+}
+
+.pool_img {
+    width: 50%;
+}
+
+.spa_text {
+    padding: 7% ;
+    text-align: center;
+    width: 50%;
+}
+
+.spa_img {
+    width: 50%;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.dining_text {
+    padding: 7%;
+    text-align: center;
+    width: 50%;
+}
+
+.dining_img {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
+/* the heading of each facility */
+.heading {
+    text-transform: capitalize;
+    color: #036158;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+}
+/* styling the button */
+.btn1 {
+    height: 3.75rem;
+    padding: 0 4.5rem;
+    border-radius: .31rem;
+    background-color: #036158;
+    border:2px solid #036158 ;
+    color: #f2f2f2;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn1:hover {
+    background-color: #0d9285;
+    border: 2px solid #0d9285;
+}
+
+.btn1:focus {
+    background-color: #035651;
+    border: 2px #035651;
+}
+
+.btn1:disabled {
+    background-color: #9feee9;
+    border: 2px  #9feee9;
+}
+/* the media query */
+ @media  only screen and (max-width: 760.98px) {
+     .heading1 {
+         font-size: 1rem;
+     } 
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1 .7em;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1em .7em;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+    .pool_text {
+    width: 100%;
+    padding: 0 7% 4% 3%;
+    text-align: left;
+    }
+
+    .pool_img {
+        width: 100%;
+    }
+
+    .spa_text {
+    width: 100%;
+    padding: 0 7% 4% 3%;
+    text-align: left;
+    }
+
+    .spa_img {
+        width: 100%;
+        
+    }
+
+    .dining_text {
+    width: 100%;
+    padding: 0 7% 4% 3%;
+    text-align: left;
+    }
+
+    .dining_img {
+        width:100%;
+    }
+
+    .img {
+        width: 100%;
+        padding-top: 1em;
+        background-size: cover;
+     }
+
+     .btn1 {
+        height: 3rem;
+        padding: 0 4rem;
+        border-radius: .31rem;
+        background-color: #036158;
+        border:2px solid #036158 ;
+        color: #f2f2f2;
+        font-size: .7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  }
+
+ 
