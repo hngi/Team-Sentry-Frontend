@@ -1,2 +1,2 @@
 ...
-Page 3 - Explore our Facilities | Booking
+Page 3 - Explore our Facilities | Bookings
