@@ -39,7 +39,7 @@
   h1.main-frame-text {
     position: relative;
     text-align: center;
-    top: 140px;
+    top: 200px;
     color: #fff;
     font-size: 40px;
     font-weight: bold;
@@ -401,4 +401,9 @@ footer .links .fab {
       line-height: 7px;
   
     }
+}
+
+.row { 
+    margin-left: 0; 
+    margin-right: 0; 
 }
