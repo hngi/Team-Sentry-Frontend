@@ -160,6 +160,7 @@ footer{
     .openbtn{
         display: flex;
         margin-left: 80%;
+        margin-top: 30px;
     }
     .bottomname, .bottomnav{
         display: none;
