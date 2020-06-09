@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+  }
+ 
+  .container-fluid{
+      background-color: #F2F2F2;
+      width:100%;
+      max-height: 500px;
+  }
+
+  /*   overlay on the left*/
+  .desktop .box{
+    float:right;
+    padding-top:20em;
+    padding-bottom:20em;
+    background-color:rgba(166, 113, 83, 0.15);
+    margin-top:1em;
+    width:60%; 
+  }
+
+/*  image*/
+.desktop{
+padding-right:10%;
+}
+  .desktop .right-image{
+  margin-top:3em;
+  background-image: url("images/picture1.svg");
+  background-position:center;
+  background-repeat:none;
+  background-size:cover;
+  min-height: 400px;
+  max-width:400px;
+  position:relative;
+  }
+
+  /* left arrow */
+.vector{
+  margin-top:90%;
+  padding-right:1%;
+  float:right;
+}
+
+/*text container*/
+.text{ 
+    margin-top:15%;
+    padding-left:20%;
+}
+
+/* about hotel gryffindor*/
+.text h4{
+  color:#595959;
+  font-weight: bold;
+  font-size:14px;
+}
+
+/*border*/
+ .border{
+    border: 2px  solid #A67153;
+    margin-right:88%;
+}
+
+/*h5 heading*/
+.text h5{
+  color:#036158;
+  font-weight: bold;
+  font-family: crimson text;
+  font-size:18px;
+}
+
+/*paragraph*/
+.text p{
+  color:#8C8C8C;
+  font-size: 14px;
+}
+
+
+
+/* media query ============================= */
+/*for tablets and pc*/
+@media screen and (min-width:1005px){
+  .mobile{
+    display:none;
+  }
+  
+}
+/* for phones*/
+@media screen and (max-width:1005px){
+  
+  .desktop{
+    display:none;
+  }
+  .text{
+    padding:10%;
+  }
+  .container-fluid{
+    max-height:100%;
+  }
+  .mobile .img-responsive{
+    padding-top:10%;
+    margin-bottom:-180px;
+  }
+}
