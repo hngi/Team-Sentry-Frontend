@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.container-1 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 130px;
+}
+
+.container-2 {
+  width: 50%;
+  margin: 250px auto;
+  position: relative;
+}
+
+.hr {
+  width: 79px;
+  height: 6px;
+  background-color: #a67153;
+  margin-top: 15px;
+  margin-bottom: 20%;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #595959;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Crimson Text", serif;
+  margin-bottom: 25px;
+  color: #035951;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #595959;
+  width: 100%;
+  line-height: 1.7rem;
+}
+
+/* Styles for form labels */
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 22px;
+  color: #8c8c8c;
+}
+
+/* Styles for the Buttons */
+
+.btn {
+  position: absolute;
+  top: 190px;
+  right: 220px;
+  width: 68%;
+  height: 60px;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+  font-size: 16px;
+  background-color: #035951;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #036158;
+}
+
+/* CSS for the input box  */
+
+.input {
+  margin: 5px 0 25px 0;
+  padding: 5px 10px;
+  outline: 0;
+  text-align: center;
+  border-width: 0 0 2px;
+  border-color: #d9d9d9;
+  font-size: 16px;
+  font-weight: 700;
+  color: #595959;
+  font-family: "Crimson Text", serif;
+}
+
+/* Changed the color of the FontAwesome icons with class .in */
+
+.in {
+  color: #c78863;
+}
+
+/* Styles for the form */
+
+ul {
+  width: 100%;
+}
+ul li {
+  width: 49%;
+  display: inline-block;
+}
+
+ul li > * {
+  width: 40%;
+}
+
+/* MEDIA QUERIES FOR TABLET */
+
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .container-1 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+  }
+  .container-2 {
+    width: 100%;
+    margin: 100px auto;
+    position: relative;
+  }
+
+  .btn {
+    position: absolute;
+    top: 190px;
+    right: 200px;
+    width: 48%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 14px;
+    background-color: #035951;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  .btn:hover {
+    background-color: #036158;
+  }
+
+  .input {
+    margin: 5px 0 25px 0;
+    padding: 5px 10px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #d9d9d9;
+    font-size: 12px;
+    font-weight: 600;
+    color: #595959;
+    font-family: "Crimson Text", serif;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+  ul li {
+    width: 49%;
+    display: inline-block;
+  }
+
+  ul li > * {
+    width: 50%;
+  }
+}
+
+/* MEDIA QUERIES FOR SMALL DEVICES */
+@media screen and (min-width: 0px) and (max-width: 414px) {
+  .main-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .container-1 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+  }
+  .container-2 {
+    width: 100%;
+    margin: 100px auto;
+    position: relative;
+  }
+
+  .btn {
+    position: absolute;
+    top: 190px;
+    right: 120px;
+    width: 48%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 14px;
+    background-color: #035951;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+  ul li {
+    width: 49%;
+    display: inline-block;
+  }
+
+  ul li > * {
+    width: 50%;
+  }
+}
