@@ -123,15 +123,47 @@ li a:hover {
 }
 
 .checkbtn {
-  font-size: 30px;
-  color: #ffffff;
   float: right;
-  line-height: 70px;
+  position: relative;
+  top: 32px;
   cursor: pointer;
   display: none;
 }
 
 #check { display: none;}
+
+/* Hamburger menu with CSS */
+.hamburger, .hamburger::before, .hamburger::after {
+  content: "";
+  display: block;
+  background: #fff;
+  height: 3px;
+  width: 1.8rem;
+  border-radius: 4px;
+  transition: all .4s ease-out;
+}
+
+.hamburger::before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after { 
+  transform: translateY(5px);
+} 
+
+/* Hamburger icon switch to X */
+#check:checked ~ .checkbtn .hamburger {
+  transform: rotate(45deg);
+  background: #fff;
+}
+
+#check:checked ~ .checkbtn .hamburger::after {
+  transform: translateY(-3px) rotate(-90deg);
+  background: #fff;
+}
+#check:checked ~ .checkbtn .hamburger::before {
+  opacity: 0;
+}
 
 /* media Query */
 
