@@ -6,63 +6,6 @@ body {
     background-color: background: #E5E5E5;
 }
 
-header.navheader {
-    text-align: center;
-    color: white;
-    background-image: url('../img/Mask%20Group%2010%201.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100 vw;
-    height: 222px;
-}
-
-header div.rect {
-    height: inherit;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.37);
-}
-
-header div div.headerText {
-    padding-top: 7%;
-}
-
-header div div a.headerlink {
-    text-decoration: none;
-}
-
-/*header text: Our Rooms & rates*/
-header div div a h3 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-bottom: 5px;
-
-}
-
-/*header text: ACCOMODATION*/
-header div div a h5 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #E6B922;
-    margin-bottom: -10px;
-
-}
-
-/*header text: Home > Rooms & Rates*/
-header div div a h6 {
-    ont-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
-
-}
 
 /*Rooms types title (special & normal)*/
 section h1.text-center {
@@ -114,6 +57,10 @@ div section div a div h6 small.smallText {
 
 div section div.card:hover {
     transform: translateY(8px);
+}
+
+div div button.btn:hover{
+    background-color: #ffe200;
 }
 
 @media (max-width: 576px) {
