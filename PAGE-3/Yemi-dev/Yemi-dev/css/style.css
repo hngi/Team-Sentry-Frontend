@@ -16,7 +16,7 @@ header {
     color: #595959;
     font-family: 'Poppins', sans-serif;
     margin: 2em 1em;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 
 }
@@ -29,33 +29,39 @@ span {
 .container1 {
     display: flex;
     flex-direction: row;
-    padding: .2em .7em;
+    /* padding: .2em .7em; */
+    align-items: center;
     width: 100%;
 }
 
 .container2 {
     display: flex;
     flex-direction: row-reverse;
-    padding: .2em .7em;
+    /* padding: .2em .7em; */
+    align-items: center;
     width: 100%;
 }
 
 
-.pool_text {
-    padding: 7%;
+.pool_text, .dining_text,  .spa_text{
     text-align: center;
     width: 50%;
+}
+.text{
+    width:70%;
+    margin:0 auto;
+    
 }
 
 .pool_img {
     width: 50%;
 }
 
-.spa_text {
-    padding: 7% ;
+/* .spa_text {
     text-align: center;
     width: 50%;
-}
+    padding: .5rem;
+} */
 
 .spa_img {
     width: 50%;
@@ -65,11 +71,11 @@ p {
     font-size: 1.4rem;
 }
 
-.dining_text {
-    padding: 7%;
+/* .dining_text {
     text-align: center;
     width: 50%;
-}
+    padding: .5rem;
+} */
 
 .dining_img {
     width: 50%;
@@ -77,23 +83,23 @@ p {
 
 img {
     width: 100%;
-    background-size: cover;
+    object-fit: cover;
 }
 /* the heading of each facility */
 .heading {
     text-transform: capitalize;
     color: #036158;
     font-size: 2.5rem;
+    margin: 0;
     font-weight: bold;
     font-family: 'Crimson Text', serif;
 }
 /* styling the button */
 .btn1 {
-    height: 3.75rem;
-    padding: 0 4.5rem;
+    padding: 1rem 4.5rem;
     border-radius: .31rem;
     background-color: #036158;
-    border:2px solid #036158 ;
+    border:1px solid #036158;
     color: #f2f2f2;
     font-size: 1rem;
     font-weight: bold;
@@ -115,6 +121,20 @@ img {
     border: 2px  #9feee9;
 }
 /* the media query */
+@media  only screen and (max-width: 1024.98px) { 
+    .text{
+        width:95%;
+        margin:0 auto;
+    }
+    p{
+        font-size: 1.1rem;
+        margin: 0;
+        padding:.6rem 0 .6rem 0;
+    }
+    .btn1{
+        padding:1rem 2.5rem;
+    }
+}
  @media  only screen and (max-width: 760.98px) {
      .heading1 {
          font-size: 1rem;
@@ -122,13 +142,13 @@ img {
     .container1 {
         display: flex;
         flex-direction: column-reverse;
-        padding: 1 .7em;
+        padding: .5em;
     }
     
     .container2 {
         display: flex;
         flex-direction: column-reverse;
-        padding: 1em .7em;
+        padding:  .5em;
     }
 
     .heading {
@@ -136,33 +156,27 @@ img {
     }
 
     p {
-        font-size: .8rem;
+        font-size: 1rem;
     }
-    .pool_text {
-    width: 100%;
-    padding: 0 7% 4% 3%;
-    text-align: left;
+
+    .pool_text, .dining_text,  .spa_text{
+        text-align: left;
+        width: 100%;
+        padding: .5em 0em;
+    }
+    .text{
+        width:92%;
+        
     }
 
     .pool_img {
         width: 100%;
     }
 
-    .spa_text {
-    width: 100%;
-    padding: 0 7% 4% 3%;
-    text-align: left;
-    }
 
     .spa_img {
         width: 100%;
         
-    }
-
-    .dining_text {
-    width: 100%;
-    padding: 0 7% 4% 3%;
-    text-align: left;
     }
 
     .dining_img {
@@ -187,5 +201,6 @@ img {
         text-transform: uppercase;
     }
   }
+
 
  
