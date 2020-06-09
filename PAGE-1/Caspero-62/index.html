@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gryffindor</title>
+
+    <!-- link to google fonts CDN     -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- link to Bootstrap stylesheet CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- link to external stylesheet-->
+    <link rel="stylesheet" href="carousel.css" type="text/css">
+</head>
+<body>
+
+    <!-- Beginning of Carousel Container -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!--Carousel Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+            <!-- Beginning of First Slide -->
+            <div class="carousel-item active">
+
+                <!-- Beginning of welcome-Box Container -->
+                <div class="welcome-box-container">
+                    <div class="welcome-box">
+                        <h4 class="welcome-box-text">WELCOME TO</h4>
+                        <h1 class="hotel-text">Hotel Gryffindor</h1>
+                        <h4 class="welcome-box-text Third">Experience Life Here</h4>
+                        <button class="book-button">Book Now</button>
+                    </div>
+                </div>
+                <!-- Beginning of welcome-Box Container -->
+                
+                <img class="d-block w-100" src="img/Rectangle 2.jpg" alt="First slide">
+            </div>
+            <!-- End of First Slide -->
+
+            <!-- Beginning of Second Slide -->
+            <div class="carousel-item">
+
+                <div class="overlay">
+                  <div class="third-box-container">
+                    <div class="third-box">
+                        <h4 class="third-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Doloremque laborum necessitatibus, 
+                            nemo eveniet culpa doloribus mollitia voluptas quibusdam repellendus in similique dignissimos fugit.
+                            Alias consequuntur culpa, magnam praesentium at quis!
+                        </h4>
+                    </div>
+                  </div>  
+                
+                
+
+                  <picture>
+                      <source srcset="img/palm-trees-near-buildings.jpg" media="(min-width: 578px)"/>
+                      <source srcset="img/slide2-img.jpg" media="(min-width: 320px)"/>
+                      <img class="d-block w-100 slide1-img" src="img/palm-trees-near-buildings.jpg" alt="example"/>
+                  </picture>
+                </div>
+            </div>
+            <!-- End of Second Slide -->
+        </div>
+
+        <!-- Next and Previous Buttons -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="fas fa-angle-double-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="fas fa-angle-double-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- End of Carousel Container -->
+    
+    <!-- fontawesome script CDN-->
+    <script src="https://kit.fontawesome.com/8ca81c817e.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap scripts CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
