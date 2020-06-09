@@ -43,6 +43,7 @@
   }
 
 /* main nav */
+
 #main-nav {
   margin-bottom: var(--theme-color);
 }
@@ -77,6 +78,9 @@
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
+
+
+/* top nav rendered to display of none shows only for tablet and desktop */
 
   #header-nav {
     display: none;
@@ -153,7 +157,9 @@
   }
 
 
-  /*  Hero section */
+  /*  Hero section-  Main section with background image */
+
+
   main section.hero {
     height: 90vh;
     background: url("./assets/images/ROOM.png");
@@ -275,6 +281,7 @@ main > section.showcase .page-breaker {
   }
 
   /* Secondary showcase */
+
   .sec-showcase {
     margin: 1em auto 0 auto;
   }
@@ -335,6 +342,7 @@ main > section.showcase .page-breaker {
   }
 
   /* Footer */
+
 .footer-container {
     background: #494331;
     color: #ffffff;
@@ -507,6 +515,7 @@ main > section.showcase .page-breaker {
     margin-right: 1em;
   }
 
+  /* For Tablets */
 
 @media only screen and (min-width: 740px) and (max-width: 970px) {
 
@@ -554,11 +563,6 @@ main > section.showcase .page-breaker {
         row-gap: 2em;
         column-gap: 1em;
       }
-      
-      /* .sec-showcase-items-img {
-        width: 510.03px;
-        height: 257.96px;
-      } */
       
       .sec-showcase-items-img > img {
         width: 100%;

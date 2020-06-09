@@ -5,6 +5,7 @@
   --theme-color: #eba12a;
   font-size: 18px;
 }
+
 /* Generic styles */
 * {
   margin: 0;
@@ -46,6 +47,7 @@ img {
 }
 
 /* NavBar styles */
+/* This are the styles for the top nav */
 
 #header-nav {
   background: var(--theme-color);
@@ -70,7 +72,10 @@ img {
   height: 110px;
   width: 274px;
 }
-/* main nav */
+
+
+/* Styles for the main nav */
+
 #main-nav {
   margin-bottom: var(--theme-color);
 }
@@ -172,17 +177,19 @@ header > nav .links li {
   color: #232322;
 }
 
+/* The main section with a background image */
+
 main section.hero {
   height: 100vh;
   background: url("./assets/images/ROOM.png");
   background-size: cover;
   background-position: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
+
 main section.hero ::after {
   content: "";
   display: block;
@@ -194,6 +201,7 @@ main section.hero ::after {
   width: 100%;
   z-index: -1;
 }
+
 main section.hero h1 {
   font-weight: 500;
   font-size: 62px;
@@ -225,6 +233,10 @@ main > section.showcase .page-breaker {
   margin: 50px 0;
 }
 
+
+/* First showcase */
+
+
 .showcase-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -232,16 +244,10 @@ main > section.showcase .page-breaker {
   row-gap: 100px;
 }
 
-
-.showcase-item {
-}
-
 .showcase-item-image {
   height: 279px;
 }
 
-.showcase-item-image-content {
-}
 
 .showcase-item-content .title {
   font-style: normal;
@@ -262,7 +268,6 @@ main > section.showcase .page-breaker {
   line-height: 28px;
   text-align: justify;
   letter-spacing: 0.1em;
-
   color: #232322;
 }
 
@@ -311,10 +316,10 @@ main > section.showcase .page-breaker {
   color: #232322;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.1em;
-  text-align: justify;
+  text-align: center;
   width: 536px;
 }
 
@@ -327,10 +332,6 @@ main > section.showcase .page-breaker {
   column-gap: 37.48px;
 }
 
-/* .sec-showcase-items-img {
-  width: 510.03px;
-  height: 257.96px;
-} */
 
 .sec-showcase-items-img > img {
   width: 100%;
@@ -355,6 +356,7 @@ main > section.showcase .page-breaker {
 }
 
 /* Footer */
+
 .footer-container {
   background: #494331;
   padding: 15px 80px 36px 80px;
