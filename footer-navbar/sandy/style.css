@@ -230,7 +230,7 @@ body{
   @media screen and (max-width: 852px) {
     .checkbtn { display: block;}
   
-    ul {
+   nav ul {
       position: fixed;
       width: 100%;
       height: 100%;
