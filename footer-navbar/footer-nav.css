@@ -1,0 +1,186 @@
+/*This is the style for large screens*/
+.header, .topnav{
+    display:inline-block;
+    vertical-align:middle;
+
+}
+/*This entails the hotel's name*/
+.hotelname {
+    position: absolute;
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px;
+    float: left;
+    color: #035951;
+    margin-left: 50px;
+}
+/*This is for the navigation bar*/
+#topnav{
+    float: right;
+    margin-top: 40px;
+    position: absolute;
+    width: 680px;
+    height: 34px;
+    margin-left: 45%;
+}
+
+#topnav a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8C8C8C;
+    margin-left: 60px;
+
+}
+
+#topnav a:hover{
+    border-bottom: 2px solid #614230;
+    color: #614230;
+}
+#topnav .icons{
+    display: none;
+}
+/*This section is the style for the footer*/
+footer{
+    background: #036158;
+    margin-top: 100%;
+
+}
+.bottomline{
+    border-bottom: 1px solid #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottomname{
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F2F2F2;
+    margin-left: 20px;
+}
+.bottomnav{
+    float: right;
+    height: 34px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.bottomnav a{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.bottomcopyright{
+    display: flex;
+
+}
+.copyright{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F2F2F2;
+    margin-left: 20px;
+}
+.socialIcons{
+    margin-left: 60%;
+    margin-top: 20px;
+}
+.socialIcons i{
+    margin-left: 20px;
+}
+
+/*This is for the menu bar open button*/
+.openbtn{
+    position: absolute;
+    float: right;
+    margin-top: 20px;
+    margin-left: 70%;
+    display: none;
+}
+/*This is for the menu bar close button*/
+
+.closebtn{
+    display: none;
+}
+.forsmallerscreen{
+    display: none;
+}
+/*This is the design for smaller screens*/
+@media screen and (max-width: 650px){
+    #topnav{
+        z-index: 1;
+        height: 65%; 
+        width: 0;
+        top: 0; /* Stay at the top */
+        left: 0;
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(192, 192, 192)); /*Backgroud gradient for the menu*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 50px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        border-radius: 8px;
+        margin-left: 57%;
+    }
+    #topnav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        margin: 30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+    }
+    #topnav .icons{
+        display: inline;
+        margin: 7px;
+    }
+    #topnav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .openbtn{
+        display: flex;
+        margin-left: 80%;
+        margin-top: 30px;
+    }
+    .bottomname, .bottomnav{
+        display: none;
+    }
+    .forsmallerscreen{
+        display: grid;
+        margin-left: 17%;
+        font-family: Poppins;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #F2F2F2;
+    }
+    .forsmallerscreen p{
+        font-size: 15px;
+        
+    }
+ 
+}
+
