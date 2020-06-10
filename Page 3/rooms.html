@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" media="only screen and (min-width: 970px)" href="./css/desktop.css" />
-    <link rel="stylesheet" media="only screen and (max-width: 970px)" href="./css/mobile-tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <title>Cynosure - Rooms</title>
 
   
@@ -34,8 +33,6 @@
           <div class="logo-container">
             <img id="logo" src="./assets/images/Logo.png" alt="Company Logo" />
           </div>
-          
-
           <ul class="nav-menu">
             <li>
               <a href="">Home</a>
@@ -235,111 +232,36 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="footer-container">
-          <div class="head-footer">
-            <nav class="footer-nav">
-              <a href="">ACCESSIBILITY</a>
-              <a href="">REVIEWS</a>
-              <a href="">PRIVACY POLICY</a>
-              <a href="">TERMS & CONDITIONS</a>
-              <a href="">SITE MAP</a>
-            </nav>
-            <div class="footer-logo">
-              <img src="./assets/images/Logo.png" alt="" />
-            </div>
+    </main>
+      <footer id="footer-main">
+        <div class="container">
+          <div class="footer-nav">
+            <ul>
+              <li><a href="">Accessibility</a></li>
+              <li><a href="">Reviews</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Site Map</a></li>
+            </ul>
+            <img src="./assets/images/Logo.png" alt="Company Logo" />
           </div>
-          <div class="footer-content">
-            <div class="footer-content-left">
-              <h3>The Cynosure Hotel</h3>
-              <p>
-                <span class="footer-icon"
-                  ><img src="./assets/icons/icons8-marker-24 1.png" alt=""
-                /></span>
-
-                <span>1056, Independence Avenue, By Okpara Square, Enugu</span>
-
-                
-
-              </p>
-              <p>
-                <span class="footer-icon"
-                  ><img src="./assets/icons/icons8-phone-24 1.png" alt=""
-                /></span>
-                <span
-                  >+234803 333 0000 | For Reservations: +234803 333 0003</span
-                >
-              </p>
-              <p>
-                <span class="footer-icon"
-                  ><img
-                    src="./assets/icons/icons8-secured-letter-64 1.png"
-                    alt=""
-                /></span>
-                <span>info@thecynosurehotel.com</span>
-              </p>
+          <div class="footer-details">
+            <div class="footer-info">
+              <h3>The Cynosure hotel</h3>
+              <p><i class="fas fa-map-marker-alt"></i> 1056, independence Avenue, By Okpara Square,Enugu</p>
+              <p><i class="fas fa-phone"></i> +234803 333 0000 | For Reservations +234803 333 0003</p>
+              <i class="far fa-envelope"></i> info@thecynosurehotel.com</p>
             </div>
-            <div class="footer-content-right">
-              <div class="form-container">
-                <p>Subscribe to our newsletter</p>
-                <form action="">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Your email"
-                    aria-labelledby="Email"
-                  />
-                  <input
-                    type="submit"
-                    value="SUBSCRIBE"
-                    aria-labelledby="Submit"
-                  />
-                </form>
-              </div>
-              <div class="social-icons">
-
-                <a href=""><img src="./assets/icons/Twitter.png" alt=""></a>
-                <a href=""><img src="./assets/icons/instagram.png" alt="" /></a>
-                <a href=""><img src="./assets/icons/Facebook.png" alt="" /></a>
-
-              </div>
+            <div class="footer-sub">
+              <p>Subscribe to our Newslettter:</p>
+              <form action="">
+                <input type="email" placeholder="Your E-mail" />
+                <input type="submit" value="SUBSCRIBE" />
+              </form>
             </div>
           </div>
         </div>
       </footer>
-    </main>
-
-    <script>
-      function navSlide() {
-        const burger = document.querySelector(".burger");
-        const nav = document.querySelector(".nav-menu");
-        const navLinks = document.querySelectorAll(".nav-menu li");
-
-        burger.addEventListener("click", navbutton);
-
-        function navbutton(e) {
-          e.preventDefault();
-          nav.classList.toggle("nav-active");
-
-          // Animate links
-          navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-              link.style.animation = "";
-            } else {
-              link.style.animation = `navLinkFade .5s ease-in-out forwards ${
-                index / 7 + 1
-              }s`;
-            }
-          });
-
-          // Animate Burger
-
-          burger.classList.toggle("toggle");
-        }
-      }
-
-      navSlide();
-    </script>
+      <script src="script.js"></script>
   </body>
 </html>
