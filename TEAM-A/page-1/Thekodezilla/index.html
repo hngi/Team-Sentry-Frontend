@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Royal</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----------------------------NavBar----------------------------->
+
+<section class="breadcrumb__area bg-overlay">
+  <div class="navbar__menu">
+      <div class="container">
+          <nav>
+              <div class="navbar__container">
+                  <img src="./images/logo.png" alt="" class="logo">
+                  <input type="checkbox" name="" id="chk">
+                  <label for="chk" class="show-menu-btn">
+                      <i class="fa fa-navicon"></i>
+                  </label>
+                  <ul class="navbar__menu__container">
+                      <li><a href="#" class="navbar-link active">Home</a></li>
+                      <li><a href="#" class="navbar-link">rooms & rate</a></li>
+                      <li><a href="#" class="navbar-link">facilities</a></li>
+                      <li><a href="#" class="navbar-link">contact us</a></li>
+                      <li><a href="#" class="navbar-link">about us</a></li>
+                      <label for="chk" class="hide-menu-btn">
+                          <i class="fa fa-times"></i>
+                      </label>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+  </div>
+
+  
+</section>
+<!---------------------------------\Navbar---------------------->
+
+    <main>
+      <!-----------------------------Header----------------------->
+
+      <div class="container-fluid header">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-top">
+              <div class="headerTopTexts d-flex flex-column">
+                <h4 id="away">AWAY FROM MONOTONOUS LIFE STYLE</h3>
+                <h1 id="stay">Stay With Us & Relax</h1>
+                <h4 id="here">
+                  Here are the best hotel booking sites, including
+                  recommendations for international 
+                  travel and for finding low-priced hotel rooms.
+                </h4>
+                <button class="getStarted">
+                  <h4>Get Started</h4>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---------------------------------HEADER DOWN------------------------->
+          <div class="col-12 headerBottomDiv">
+            <div class="headerBottom d-flex">
+                <div class="headerBottomCont d-flex flex-row">
+
+<div class="row bottomRow">
+    <div class="col-12 col-md-3 mob-header">
+        <h3 class="btnTextLeft">BOOK<br/> YOUR ROOM</h3>
+    </div>
+    <div class="col-12 col-md-3 dateInps btnGroups mob-header">
+        <input type="date" placeholder="Arrival Date" onclick="this.placeholder = ''" required />
+      <input type="date" placeholder="Departure Date" onclick="this.placeholder = ''" required />
+    </div>
+    <div class="col-12 col-md-3 ageInps btnGroups mob-header">
+        <form action="" class="adultSelectForm">
+            <select class="adultSelect">
+              <option value="adult">Adult</option>
+              <option value="child">Child</option>
+            </select>
+          </form>
+          <form action="" class="adultSelectForm">
+            <select class="adultSelect">
+              <option value="adult">Adult</option>
+              <option value="child">Child</option>
+            </select>
+          </form>
+    </div>
+    <div class="col-12 col-md-3 btnGroups mob-header">
+        <select class="roomSelect">
+            <option value="room">Room</option>
+            <option value="room">Room</option>
+          </select>
+      
+          <button type="submit" class="formSubmit">
+            <h4>Book Now</h4>
+          </button>
+    </div>
+</div>
+
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------/Header------------------------>
+
+      <!---------------------------------Body-1------------------->
+      
+        <div class="container-fluid Body-1Main">
+            
+          <div class="row">
+            <div class="col-12 body-1Cont">
+            <div class="body-1">
+<div class="row body-1Row">
+            <div class="col-12 col-md-6">
+             <div class="bodyOneright">
+<h2>ABOUT US<br/>
+    OUR HISTORY<br/>
+    MISSSION & VISION</h2>
+    <h4>With over 340 hotels worldwide, NH Hotel Group offers
+        a widevariety of hotels catering for a perfect stay no 
+        matter where your destination.</h4>
+<button><h5>
+    REQUEST CUSTOM PRICE
+</h5></button>
+
+             </div>
+            </div>
+            <div class="col-12 col-md-6 bodyOneleft">
+             <img src="images/bodyOnerightImg.png" alt="" class="bodyOnerightImg">
+            </div>
+
+            
+          </div>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <!---------------------------------/Body-1------------------->
+
+      <!---------------------------------------Carousel-------------------------------------->
+      <div class="container-fluid carousel-container">
+        <div class="row">
+          <div class="col-md-8 col-center m-auto">
+              <h3 id="testimonials">TESTIMONIALS</h3>
+            <h2 id="eng-users">What Customers Say?</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  
+                  <p class="testimonial">
+                    After a construction project took longer than expected, my husband, my daughter and I
+needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
+city, neighborhood and the types of housing options available and absolutely love our
+vacation at Royals Hotel.
+                  </p>
+                  <div>
+                    
+                    
+                    <p class="customerName"><img src="images/stars.png" class="stars mt-2" /> - Alex Johnson</p>
+                    <img src="images/trip-advisor-logo-png.png" alt=""  class="trip-advisor-logo"/>
+
+                  </div>
+                </div>
+
+                <!-------------Carousel two------------->
+
+                <!-------------Carousel two------------->
+              </div>
+              <!-- Carousel controls -->
+              <a
+                class="carousel-control left carousel-control-prev"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a
+                class="carousel-control right carousel-control-next"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------------------------Carousel---------------------------------------->
+
+      <!----------------------------------------Blogs--------------------------->
+      <div class="container-md container-sm-fluid all-post-imgs">
+        <div class="row allBlogs">
+          
+            <!--Nested rows within a column-->
+<!-----------------------Blog1------------------>
+            <div class="col-12 col-md-4 p-0  topBlog topBlog1">
+              <div class="postContent ">
+                <img src="images/blog-1.jpg" class="post-img" />
+                <div class="blog-text">
+                  <button class="blogBtn blogBtn1">
+                    <h5>TRAVEL</h5>
+                  </button>
+                  <h3 class="blogText1">
+                    Tremblant in Canada
+                  </h3>
+                  <p class="blogText2"><span><img src="images/clock.png" class="clockImg"></span> 15th January, 2020</p>
+                </div>
+              </div>
+            </div>
+<!-----------------------Blog2------------------>
+            <div class="col-12 col-md-4 p-0  topBlog topBlog2">
+                <div class="postContent">
+                  <img src="images/blog-2.jpg" class="post-img" />
+                  <div class="blog-text">
+                    <button class="blogBtn blogBtn2">
+                      <h5>CAMPING</h5>
+                    </button>
+                    <h3 class="blogText1">
+                      Choosing s static Caravan
+                    </h3>
+                    <p class="blogText2"><span><img src="images/clock.png" class="clockImg"></span> 4th March, 2020</p>
+                  </div>
+                </div>
+              </div>
+<!-----------------------Blog3------------------>
+              <div class="col-12 col-md-4 p-0  topBlog topBlog3">
+                <div class="postContent">
+                  <img src="images/blog-3.jpg" class="post-img" />
+                  <div class="blog-text">
+                    <button class="blogBtn blogBtn3">
+                      <h5>CAMPING</h5>
+                    </button>
+                    <h3 class="blogText1">
+                      Copper Canyon
+                    </h3>
+                    <p class="blogText2"><span><img src="images/clock.png" class="clockImg"></span> 20th April, 2020</p>
+                  </div>
+                </div>
+              </div>
+<!-----------------------Blog4------------------>
+<div class="col-12 col-md-8 p-0 widePostMobile topBlog4">
+  <div class="postContent widePostContent">
+    <img src="images/blog-4.png" class="post-img" />
+    <div class="blog-text blogText4">
+      <button class="blogBtn blogBtn4">
+        <h5>TRAVEL</h5>
+      </button>
+      <h3 class="blogText1">
+        A Trip to Barcelona, Spain
+      </h3>
+      <p class="blogText2"><span><img src="images/clock.png" class="clockImg"></span> 6th January, 2020</p>
+    </div>
+  </div>
+</div>
+<!-----------------------Blog5------------------>
+<div class="col-12 col-md-4 p-0 topBlog5">
+  <div class="postContent">
+    <img src="images/blog-5.png" class="post-img" />
+    <div class="blog-text blog-text-mob">
+      <button class="blogBtn blogBtn5"> 
+        <h5>EVENT</h5>
+      </button>
+      <h3 class="blogText1">
+        Trip to Artic City
+      </h3>
+      <p class="blogText2"><span><img src="images/clock.png" class="clockImg"></span> 15 MARCH, 2020</p>
+    </div>
+  </div>
+</div>
+<!-----------------------Blog5------------------>
+          </div>
+        </div>
+      </div>
+      <!-----------------------\Header------------------>
+    </main>
+<!----------------------------Footer----------------------->
+<footer class="footer py-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 col-sm-6 mb-4">
+        <p class="h2 mb-0 text-light footer__logo">ROYALS</p>
+        <p class="small text-light">HOTELS & RESORTS</p>
+        <p class="mb-4">
+          We inspire and reach millions of travelers across 90 local
+          websites
+        </p>
+        <nav class="nav">
+          <a href="#" class="nav-link pl-0 pr-1 text-warning">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+          <a href="#" class="nav-link pr-1 text-warning">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a href="#" class="nav-link pr-1 text-warning">
+            <i class="fa fa-linkedin-square fa-2x"></i>
+          </a>
+        </nav>
+      </div>
+      <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+        <h5 class="font-weight-bold text-light">NAVIGATIONAL LINKS</h5>
+        <div class="row">
+          <nav class="nav flex-column col">
+            <a href="#" class="nav-link footer__link">Home</a>
+            <a href="#" class="nav-link footer__link">Feature</a>
+            <a href="#" class="nav-link footer__link">Services</a>
+            <a href="#" class="nav-link footer__link">Portfolio</a>
+          </nav>
+          <nav class="nav flex-column col">
+            <a href="#" class="nav-link footer__link">Team</a>
+            <a href="#" class="nav-link footer__link">Pricing</a>
+            <a href="#" class="nav-link footer__link">Blog</a>
+            <a href="#" class="nav-link footer__link">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+        <h5 class="font-weight-bold text-light">NEWSLETTER</h5>
+        <p>
+          For business professionals caught between high OEM price and
+          mediocre print and graphic output
+        </p>
+        <form action="#">
+          <div class="form-group">
+            <div class="input-group email-group mt-3 d-flex flex-row">
+              <label for="subscriber-email" class="sr-only"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control border border-light bg-transparent"
+                id="subscriber-email"
+                aria-describedby="emailHelp"
+                placeholder="Email Address"
+                required
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn bg-warning rounded-0 text-light border btn-sm"
+                  type="submit"
+                  id="subscriber-submit"
+                >
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-2 col-sm-6 mb-4">
+        <h5 class="font-weight-bold text-light">INSTAFEEDS</h5>
+        <div>
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+          <img
+            src="images/feed.png"
+            alt="instagram feeds"
+            class="m-1 footer__feeds"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!--Popper.js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ************************************ /Section 6 ************************************* -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js"></script>
+  </body>
+</html>
