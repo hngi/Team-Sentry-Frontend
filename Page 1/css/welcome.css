@@ -43,6 +43,9 @@
   margin: 1.5em 0;
   margin-bottom: 1em;
 }
+.flex-2 {
+  margin-bottom: 100px;
+}
 .flex-2-image {
   width: auto;
 }
@@ -56,6 +59,7 @@
   line-height: 25px;
   margin-bottom: 0.7em;
 }
+
 @media (max-width: 500px) {
   .first-p {
     margin: 1.5em 0;
