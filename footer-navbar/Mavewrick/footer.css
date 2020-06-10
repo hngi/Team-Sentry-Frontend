@@ -1,0 +1,45 @@
+.footer{
+	width: 1444px;
+	height: 300px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #001326;
+}
+
+.column-styling {
+	font-family: Lato;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 22px;
+	line-height: 100%;
+	color: #FFFFFF;
+}
+
+.logo-style{
+	display: grid;
+	justify-content: center;
+	padding-top: 70px;
+
+}
+
+#logo-text{
+	margin-left: 91px;
+}
+
+.textColor{
+	color: #FFFFFF;
+}
+
+.icon-style{
+	text-decoration: none;
+}
+
+
+/*@media only screen and (max-width: 480px){
+	#location{
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+*/
