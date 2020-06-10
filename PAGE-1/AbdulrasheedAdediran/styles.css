@@ -1,7 +1,7 @@
 @media (max-width: 468px){
     /*This changes the layout for smaller screen*/
    .room-types{
-       
+
        display: grid;
        grid-template-columns: 1fr;
    }
@@ -10,12 +10,14 @@
    }
    .deluxe{
        grid-column: 1/4;
-   } 
+   }
    .diplomatic{
        grid-column: 1/4;
    }
-   }
-   /*End of layout*/
+ }
+/*End of layout*/
+
+
    *{
        margin: 0;
        padding: 0;
@@ -35,9 +37,11 @@
        color: green;
    }
    .button{
+       display: inline-block;
        background-color:#084482;
        color: #fff;
        padding: 0.5em;
+       border-radius: 0px 0px 4px 4px;
    }
    .button:hover{
        background-color: #96c7d5;
@@ -56,96 +60,243 @@
        display: grid;
        grid-template-columns: 65% 35%;
        grid-auto-rows: minmax(30px, auto);
+       background: rgba(0, 0, 0, 0.6);
+       height: 64px;
    }
    .sign-in{
-       border-right: 2px solid #eee;
+       padding: 20px;
+       border-right: 1px solid rgba(255, 255, 255, 0.5);
        justify-self: right;
-       padding: 10px;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 19px;
        color: #fff;
    }
    .reservations{
+       height: 64px;
        justify-self: center;
        align-self: center;
    }
-   
+
    /*The following styles image and page navigation links*/
    .second-header{
+       height: 124px;
+       width: 100%;
        display: grid;
        grid-template-columns: repeat(7, 1fr);
        background-color: #eee;
        justify-items: center;
        align-items: center;
    }
+
+   .second-header div a {
+     font-size: 18px;
+     line-height: 22px;
+     color: #4F4F4F;
+    }
+
    #smute-logo{
        width: 8vw;
    }
    .header-image{
-       background-image: url("./header-section.jpg");
-       background-size: 100%;
-       background-position-y: 25%;
-       background-repeat: no-repeat;
+       position: relative;
+       background: url("./header-section.jpg") no-repeat center center fixed;
+       height: 670px;
    }
+
    .motto{
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       height: 484px;
        color: #fff;
        text-align: center;
        min-height: fit-content;
        padding: 60px 50px;
        font-size: 2em;
+       font-weight: 300;
+       background: rgba(51, 51, 51, 0.2);
    }
-       
+
+   .motto strong {
+     font-weight: 600;
+   }
+
    .welcome{
        text-align: center;
        justify-content: center;
    }
-   .welcome > p, h4{
-       color: #4F4F4F;
+   .introduction {
+     font-weight: 300;
+     font-size: 24px;
+     line-height: 29px;
+     color: #4F4F4F;
+   }
+   .introduction h4{
        margin-top: 1em;
        margin-bottom: 1em;
    }
-   h3{
-       color: #084482;
-       text-align: center;
-       margin-top: 1.5em;
-       margin-bottom: 1.5em;
+   .title-intro {
+     margin-top: 2.3em;
+     margin-bottom: 2.5em;
    }
-   .room-types{
-       color: #4F4F4F;
-       text-align: justify;
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       grid-gap: 1.5em;
+   .welcome .title-intro h3{
+     font-size: 40px;
+     line-height: 48px;
+     text-align: center;
+     letter-spacing: 0.1em;
+     margin-bottom: 20px;
    }
-   .room-price{
-       color: #084482;
-       font-weight: bold;
-       font-size: 1.5em;
+   .title {
+     color: #084482;
+     text-align: center;
+     margin-top: 4rem;
+     margin-bottom: 4rem;
    }
-   .standard-label{
-       color: #fff;
-       background-color: #4F4F4F;
-       opacity: 0.8;
-       padding: 1em;
+   .title hr {
+     margin: 0 auto;
+     width: 42px;
+     height: 0px;
+     border: 3px solid #084482;
    }
-   .deluxe-label{
-       color: #fff;
-       background-color: #4F4F4F;
-       opacity: 0.8;  
-       padding: 1em;          
+
+   .title h2 {
+     width: 100%;
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 43px;
+     text-transform: uppercase;
+     color: #084482;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
    }
-   .diplomatic-label{
-       color: #fff;
-       background-color: #4F4F4F;
-       opacity: 0.8;   
-       padding: 1em;     
+
+
+  section {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+
+   /* styling for the room components */
+   .show-rooms {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(280px, 388px));
+     grid-column-gap: 52px;
+     grid-row-gap: 82px;
+     justify-content: center;
    }
-   .price-details{
-       display: flex;
-       justify-content: space-between;
+
+   .room {
+     display: flex;
+     flex-direction: column;
+     height: 424px;
+     font-style: normal;
    }
+
+   .room-header {
+     display: flex;
+     position: relative;
+     width: 100%;
+   }
+
+   .room-header div {
+     position: absolute;
+     padding: 18px 18px 17px 18px;
+     background: rgba(51, 51, 51, 0.8);
+     bottom: 19px;
+     width: 100%;
+     height: 64px;
+   }
+
+   .room-header span {
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29px;
+     color: #FFFFFF;
+   }
+
+   .room .room-description {
+     color: #4F4F4F;
+     margin-top: 28px;
+     width: 100%;
+     height: 72px;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 24px;
+   }
+
+   .room-footer {
+     display: flex;
+     margin-top: 28px;
+     justify-content: space-between;
+     font-weight: 300;
+   }
+
+
+   .room-footer .room-price {
+     margin-top: auto;
+     font-weight: bold;
+     font-size: 28px;
+     line-height: 34px;
+     color: #084482;
+   }
+
+   .room-price span {
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 19px;
+     color: #4F4F4F;
+   }
+
+   .room-footer button {
+     background: #084482;
+     border-width: 0;
+     border-radius: 3px;
+     color: white;
+     width: 161px;
+     height: 44px;
+     font-size: 16px;
+     line-height: 19px;
+   }
+
+   /* improve text on smaller viewports */
+   @media only screen and (max-width: 400px) {
+     section {
+       padding: 2rem;
+     }
+
+     .room {
+       min-width: 10rem;
+     }
+
+     .room-header span {
+       font-size: 1.3rem;
+     }
+
+     .room .room-description {
+       font-size: 1.15rem;
+     }
+
+     .room-footer .room-price {
+       font-size: 1.25rem;
+     }
+
+     .room-price span,
+     .room-footer button {
+       font-size: 0.9rem;
+     }
+
+     .room-footer button {
+       width: 9rem;
+     }
+   }
+   /* end of media query */
+   /* end of room components styling */
+
    .bigger-room{
        width: 100%;
-       margin-top: 2em;
-       margin-bottom: 2em;
+       /* margin-top: 2em;
+       margin-bottom: 2em; */
    }
    .location{
        width: 100%;
