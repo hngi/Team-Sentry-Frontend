@@ -348,16 +348,7 @@ section .subheading > p {
 }
 
 /* Tablets */
-
-@media screen and (max-width: 1050px) {
-
-  .wrapper {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
+@media screen and (max-width: 850px) {
   .burger {
     display: block;
     z-index: 3000;
@@ -408,9 +399,19 @@ section .subheading > p {
   .toggle .line:last-child {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+
 }
 
-/* Subheading section */
+@media screen and (max-width: 1050px) {
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  /* Subheading section */
 
 section .subheading > h1{
   line-height: 3.5rem;
@@ -433,6 +434,10 @@ section .subheading > p {
 #map {
   height: 40vh;
 }
+  
+}
+
+
 
 @media screen and (max-width: 480px) {
 
