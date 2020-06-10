@@ -241,6 +241,10 @@ li a:hover {
     /* display: none; */
   }
 
+  .main__frame {
+    min-height: 110vh;
+  }
+
   .sub-nav .toggle {
     visibility: visible;
   }
