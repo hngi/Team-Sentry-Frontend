@@ -18,7 +18,7 @@ a {
 
 .main__frame {
   width: 100%;
-  /* height: calc(80vh - 50px); */
+  height: calc(58vh - 50px);
   background-image: url('https://res.cloudinary.com/syfon/image/upload/v1591642862/header.png');
   background-repeat: no-repeat;
   object-fit: cover;
@@ -49,7 +49,7 @@ a {
   background: #191341;
 }
 
-.top__content>.container {
+.top__content>.cont {
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -59,7 +59,7 @@ a {
   padding-top: 15px;
 }
 
-.container>.icons {
+.cont>.icons {
   display: flex;
   flex-direction: row;
   width: 100px;
@@ -70,12 +70,12 @@ a {
   margin-right: 25px;
 }
 
-.container {
+.cont {
   width: 80%;
   margin: 0 auto;
 }
 
-.container>.select {
+.cont>.select {
   display: flex;
   flex-direction: row;
   width: 200px;
@@ -135,6 +135,7 @@ nav li a {
   line-height: 24px;
   color: #FFFFFF;
   padding: 8px 17px;
+  text-decoration: none !important;
 }
 
 nav li a:hover {
@@ -197,7 +198,7 @@ nav li a:hover {
 @media screen and (min-width: 300px) and (max-width: 420px) {
 
   /* top icons */
-  .container>.icons {
+  .cont>.icons {
     width: 30%;
     font-size: 12px;
   }
@@ -206,8 +207,12 @@ nav li a:hover {
     margin-right: 20px;
   }
 
-  .container>.select {
+  .cont>.select {
     width: 40%;
+    
+  }
+
+  .cont > .select p {
     font-size: 12px;
   }
 
@@ -219,7 +224,7 @@ nav li a:hover {
     line-height: 18px;
   }
 
-  .top__content>.container {
+  .top__content>.cont {
     width: 80% !important;
   }
 
@@ -230,17 +235,26 @@ nav li a:hover {
   nav .navBrand {
     font-size: 27px !important;
   }
+
+  .main__frame {
+    height: 100%;
+  }
+  
 }
 
 /* small tablet */
 @media screen and (min-width: 550px) and (max-width: 772px) {
 
-  .container>.select {
+  .cont>.select {
     font-size: 12px;
   }
 
   .select>span {
     line-height: 18px;
+  }
+
+  .cont > .select p {
+    font-size: 12px;
   }
 
   nav {
@@ -250,11 +264,16 @@ nav li a:hover {
   nav .navBrand {
     font-size: 33px;
   }
+
+  /* .main__frame {
+    height: calc(80vh - 50px);
+  } */
+  
 }
 
 /* tablet */
 @media screen and (min-width: 900px) and (max-width: 1250px) {
-  .top__content>.container {
+  .top__content>.cont {
     width: 85%;
   }
 
@@ -270,11 +289,16 @@ nav li a:hover {
     font-size: 14px;
     padding: 8px 14px;
   }
+
 }
 
 @media screen and (min-width: 1250px) {
   nav {
     padding: 0 8em;
+  }
+
+  .main__frame {
+    height: calc(80vh - 50px);
   }
 
 }
@@ -286,11 +310,10 @@ nav li a:hover {
   }
 
   nav ul {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.9);
-    top: 110px;
+    top: 3em;
     left: -100%;
     text-align: center;
     transition: all .4s;
@@ -298,7 +321,7 @@ nav li a:hover {
 
   nav ul li {
     display: block;
-    margin: 50px 0;
+    margin: 36px 0;
     line-height: 30px;
   }
 

@@ -44,6 +44,10 @@ p{
   ;
 }
 
+#words {
+  font-size: 22px;
+}
+
 .vert{
   margin: 0;
   position: absolute;
