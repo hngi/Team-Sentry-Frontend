@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+#background-img-header {
+    position: relative;
+    height: 432px;
+    background: url('../images/header-section.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.gray-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#background-img-header span {
+    position: absolute;
+    width: 100%;
+    bottom: 99px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #151515;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.left-panel .title p {
+    margin-bottom: 25px;
+    width: 99px;
+    height: 34px;
+    left: 86px;
+    top: 474px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #084482;  
+}
+
+.left-panel li {
+    list-style: none;
+    padding: 15px 15px 15px 30px;
+}
+
+.form-style li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.form-style .field-divided {
+    margin: 0 17px 0 17px;
+    border: 2px solid #828282;;
+    border-radius: 3px
+}
+
+.form-style .field-name {
+    width: 280px;
+    height: 36px;
+    left: 747px;
+    top: 484px;
+}
+
+.form-style .field-mail {
+    width: 280px;
+    height: 36px;
+    left: 1076px;
+    top: 484px;
+}
+
+.form-style .field-long {
+    width: 609px;
+    height: 36px;
+    left: 747px;
+    top: 553px;
+    border: 2px solid #828282;;
+    border-radius: 3px
+}
+
+.form-style .field-textarea {
+    width: 609px;
+    height: 245px;
+    left: 747px;
+    top: 622px;
+    border: 2px solid #828282;;
+    border-radius: 3px
+}
+
+*:focus {
+    outline: none;
+}
+
+.form-style input[type=button] {
+	width: 134px;
+    height: 44px;
+    left: 1222px;
+    top: 893px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    background: #084482;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.form-style input[type=button]:hover {
+	background: #094f96;
+}
+
+@media only screen and (max-width: 420px) {
+    section .container {
+        flex-direction: column; 
+        align-items: flex-start;
+        margin-bottom: 5px;
+    }
+}
+
+
