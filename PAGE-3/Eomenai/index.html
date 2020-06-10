@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookings</title>
+
+    <!---Added the link to the stylesheet---->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!---Added the link to FontAwesome---->
+    <script
+      src="https://kit.fontawesome.com/cd512af839.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---Added the link to Google Fonts---->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!---First Container---->
+  <body>
+    <div class="main-container">
+      <div class="container-1">
+        <div class="heading">
+          <h4>BOOKING</h4>
+        </div>
+        <div class="hr"></div>
+        <div class="para">
+          <h3>Book Hotel Gryffindor</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            suscipit neque at sollicitudin euismod. Nulla feugiat massa in nisl
+            malesuada dignissim. Sed ut ipsum urna. Etiam interdum, velit vitae
+            dictum gravida, arcu erat malesuada arcu, nec congue sapien mauris
+            in leo. Sed ultrices accumsan mattis. Nulla facilisi. Donec elit
+            risus, semper nec augue eu, luctus fringilla purus. Aliquam
+            malesuada risus quis quam ultricies, vel ullamcorper lacus
+            ultricies.
+          </p>
+        </div>
+      </div>
+
+      <!---Second Container, Used Unordered list so the form can have two columns as specified in the mockup---->
+
+      <div class="container-2">
+        <ul>
+          <li>
+            <label class="label-in">CHECK IN</label><br />
+            <i class="fas in fa-arrow-right fa-fw"></i>
+            <input class="input" type="text" />
+          </li>
+          <li>
+            <label class="label-out">CHECK OUT</label><br />
+            <i class="fas in fa-arrow-left fa-fw"></i>
+            <input class="input" type="text" />
+          </li>
+          <li>
+            <label class="label-guest">GUEST</label><br />
+            <i class="far in fa-user fa-fw"></i>
+            <input class="input input-guest" type="number" />
+          </li>
+          <li>
+            <label class="label-room">ROOMS</label><br />
+            <i class="fas in fa-smoking fa-fw"></i>
+            <input class="input" type="number" />
+          </li>
+        </ul>
+
+        <!---Added the BOOK NOW button---->
+
+        <button class="btn">BOOK NOW</button>
+      </div>
+    </div>
+  </body>
+</html>
