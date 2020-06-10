@@ -1,0 +1,153 @@
+@media (max-width: 468px){
+    /*This changes the layout for smaller screen*/
+   .room-types{
+       
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .standard{
+       grid-column: 1/4;
+   }
+   .deluxe{
+       grid-column: 1/4;
+   } 
+   .diplomatic{
+       grid-column: 1/4;
+   }
+   }
+   /*End of layout*/
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       font-family: Lato, Arial, Helvetica, sans-serif;
+       font-size: 1.5vw;
+   }
+   a{
+       text-decoration: none;
+   }
+   a:hover{
+       color: blue;
+   }
+   a:active{
+       color: green;
+   }
+   .button{
+       background-color:#084482;
+       color: #fff;
+       padding: 0.5em;
+   }
+   .button:hover{
+       background-color: #96c7d5;
+       color: #fff;
+   }
+   /*This only affects images that show the different types of rooms available*/
+   img{
+       width: 100%;
+   }
+   .container{
+       width: 90%;
+       margin: auto;
+   }
+   /*This styles the sign in and reservation bar*/
+   .header-links{
+       display: grid;
+       grid-template-columns: 65% 35%;
+       grid-auto-rows: minmax(30px, auto);
+   }
+   .sign-in{
+       border-right: 2px solid #eee;
+       justify-self: right;
+       padding: 10px;
+       color: #fff;
+   }
+   .reservations{
+       justify-self: center;
+       align-self: center;
+   }
+   
+   /*The following styles image and page navigation links*/
+   .second-header{
+       display: grid;
+       grid-template-columns: repeat(7, 1fr);
+       background-color: #eee;
+       justify-items: center;
+       align-items: center;
+   }
+   #smute-logo{
+       width: 8vw;
+   }
+   .header-image{
+       background-image: url("./header-section.jpg");
+       background-size: 100%;
+       background-position-y: 25%;
+       background-repeat: no-repeat;
+   }
+   .motto{
+       color: #fff;
+       text-align: center;
+       min-height: fit-content;
+       padding: 60px 50px;
+       font-size: 2em;
+   }
+       
+   .welcome{
+       text-align: center;
+       justify-content: center;
+   }
+   .welcome > p, h4{
+       color: #4F4F4F;
+       margin-top: 1em;
+       margin-bottom: 1em;
+   }
+   h3{
+       color: #084482;
+       text-align: center;
+       margin-top: 1.5em;
+       margin-bottom: 1.5em;
+   }
+   .room-types{
+       color: #4F4F4F;
+       text-align: justify;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 1.5em;
+   }
+   .room-price{
+       color: #084482;
+       font-weight: bold;
+       font-size: 1.5em;
+   }
+   .standard-label{
+       color: #fff;
+       background-color: #4F4F4F;
+       opacity: 0.8;
+       padding: 1em;
+   }
+   .deluxe-label{
+       color: #fff;
+       background-color: #4F4F4F;
+       opacity: 0.8;  
+       padding: 1em;          
+   }
+   .diplomatic-label{
+       color: #fff;
+       background-color: #4F4F4F;
+       opacity: 0.8;   
+       padding: 1em;     
+   }
+   .price-details{
+       display: flex;
+       justify-content: space-between;
+   }
+   .bigger-room{
+       width: 100%;
+       margin-top: 2em;
+       margin-bottom: 2em;
+   }
+   .location{
+       width: 100%;
+       margin: auto;
+   }
