@@ -1,0 +1,24 @@
+.navbarItem {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 60px;
+	font-family: : Lato;
+	font-style : Regular;
+	font-size: 18px;
+	font-family: bold;
+	line-height: : 22px;
+	line-height: 100%;
+	align-content: center;
+	vertical-align: : top;
+	color:#4F4F4F;
+}
+
+.logo-style{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+#text{
+	margin-left:70px;
+}
