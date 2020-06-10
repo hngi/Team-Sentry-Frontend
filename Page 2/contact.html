@@ -1,87 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contatct Us</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="header-footer.css" />
   </head>
   <body>
      <!--First nav bar-->
-    <ul class="nav nav1 sticky-top justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="#">COVID-19 UPDATE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">View Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Insiders Club</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">Contact Us 📞 +234803 333 0000</a>
-      </li>
-    </ul>
-    <!--Second nav bar-->
-    <div class="container nav-bar">
-      <img src="cynosure1.png" width="100%" class="image1" alt="" />
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="#">OUR HOTEL</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PACAKAGES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">AMENITIES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">CONTACT US</a>
-        </li>
-      </ul>
-    </div>
-    <hr />
+     <header>
+      <nav id="header-nav">
+        <div class="container">
+          <ul id="top-nav-rem-mag">
+            <li>
+              <a href="">Covid-19 Update</a>
+            </li>
+            <li>
+              <a href="">View Gallery</a>
+            </li>
+            <li>
+              <a href="">Insiders Club</a>
+            </li>
+            <li><a href="">Contact Us</a></li>
+            <li><i class="fas fa-phone"></i> +234803 333 0000</li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="main-nav">
+        <div class="container">
+          <img src="./img/Logo.png" alt="Company Logo" />
+          <ul class="nav-menu">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Packages</a>
+            </li>
+            <li>
+              <a href="">Amenities</a>
+            </li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+          <div class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!--Header and sub-header-->
-    <div class="container">
-      <div id="feedback">
-        <h6>GOT A QUESTION? GOT A FEEDBACK?</h6>
-        <h4 class="contact_head">Contact The Cynosure Hotels</h4>
-        <h6>We're here to help and answer any question you might</h6>
-        <h6>have. We look forward to hearing from you 😊</h6>
-      </div>
-    </div>
+      
     <br />
     <br>
     <br>
     <!--Contatct Info Section-->
     <div class="center-contact-page">
-        <div class="container">
-            <section class="row contact-row-grid  contact-flexbox">
+      <div id="contact-sub-header">
+        <h6 class="center-heading-text  mini-header-size">GOT A QUESTION? GOT  FEEDBACK?</h6>
+        <h4 class="center-heading-text  medium-header-size">Contact The Cynosure Hotels</h4>
+        <h6 class="center-heading-text mini-header-size">We're here to help and answer any question you might</h6>
+        <h6 class="center-heading-text mini-header-size">have. We look forward to hearing from you 😊</h6>
+      </div>
+            <section class="containercontact contact-row-grid ">
               <div class="col-md-6 contact-form-box">
                 <form action="" id="contact-form-vertical">
                   <div class="names">
-                      <label>FIRSTNAME*<br><input type="text" placeholder="Firstname"></label>
+                      <label>FIRSTNAME*<br><input type="text" size="25" class="input-padding" placeholder="Firstname"></label>
                     
-                      <label >LASTNAME*<br><input type="text" placeholder="Lastname"> </label>
+                      <label >LASTNAME*<br><input type="text" size="25" class="input-padding" placeholder="Lastname"> </label>
                     
                     
                   </div>
-                  <label class="message-label">EMAIL*<br><input  type="email" class="contact-full-width-input" placeholder="Email">  </input></label><br>
-                  <label class="message-label">PHONE*<br><input class="contact-full-width-input" type="text" placeholder="Phone Number">  </input></label></br>
-                  <label class="message-label">MESSAGE*<br><textarea class="textarea-border-fit" rows="7" placeholder="Type Message"></textarea></label>
+                  <label class="message-label">EMAIL*<br><input  type="email" class="contact-full-width-input input-padding" placeholder="Email">  </input></label><br>
+                  <label class="message-label">PHONE*<br><input class="contact-full-width-input input-padding" type="text" placeholder="Phone Number">  </input></label></br>
+                  <label class="message-label">MESSAGE*<br><textarea class="textarea-border-fit input-padding" rows="7" placeholder="Type Message"></textarea></label>
                             
                   <button type="submit" class="button contact-form-button">SEND MESSAGE</button>             
                   </form>
               </div>
 
-              <div class="info info-block-resp col-md-6">
+              
+              
+              <div class="address-info">
                 <h2>Contact Information</h2>
                 <div>
                     <i class="fa fa-map-marker"></i>
@@ -97,7 +103,6 @@
                 </div>
               </div>
             </section>
-        </div>
         <!--mapsection-->
         <div class="position-map">
           <div id="map" ></div>
@@ -106,63 +111,37 @@
 
     </div>
     <!--footer-->
-    <div class="footer">
-       <footer>
-          <div class="container foot">
-            <ul class="nav justify-content-end">
-               <li class="nav-item">
-                 <a class="nav-link" href="#">ACCESSIBILITY</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">REVIEWS</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">PRIVACY POLICY</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link active" href="#">TERMS & CONDITIONS</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link active" href="#">SITE MAP</a>
-                </li>
-                <img src="cynosure2.png" width="100%" class="image1" alt="" />
-             </ul>
-             <hr>
-             <section class="row">
-               <div class="info-foot col-md-6">
-                  <h2>The Cynosure Hotel</h2>
-                  <div>
-                     <i class="fa fa-map-marker"></i>
-                     <b>1056, Independence Avenue, By Okpara Square, Enugu</b>
-                  </div>
-                  <div>
-                     <i class="fa fa-phone"></i>
-                     <b>+234803 333 0000</b>
-                  </div>
-                  <div>
-                     <i class="fa fa-envelope"></i>
-                     <b>info@thecynosurehotel.com</b>
-                  </div>
-               </div>
-               <div class="foot-input col-md-6">
-                  <h6>Subscribe to our Newsletter:</h6>
-                  <input class="col-md-6" type="email" placeholder="Email">  </input>
-                  <button>Sumbit</button>
-               </div>
+    <footer id="footer-main">
+      <div class="container">
+        <div class="footer-nav">
+          <ul>
+            <li><a href="">Accessibility</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Site Map</a></li>
+          </ul>
+          <img src="./img/Logo.png" alt="Company Logo" />
+        </div>
+        <div class="footer-details">
+          <div class="footer-info">
+            <h3>The Cynosure hotel</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 1056, independence Avenue, By Okpara Square,Enugu</p>
+            <p><i class="fas fa-phone"></i> +234803 333 0000 | For Reservations +234803 333 0003</p>
+            <i class="far fa-envelope"></i> info@thecynosurehotel.com</p>
           </div>
-          </section>
-       </footer>
+          <div class="footer-sub">
+            <p>Subscribe to our Newslettter:</p>
+            <form action="" id="footer-form">
+              <input type="email" placeholder="Your E-mail" />
+              <input id="submit" type="submit" value="SUBSCRIBE" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./script/navbar.js"></script>
     <script>
       // Initialize and add the map
       function initMap() {

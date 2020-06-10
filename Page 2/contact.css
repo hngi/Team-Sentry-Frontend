@@ -1,109 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-.nav {
-  background-color: #eba12a !important;
+html{
+  font-family: 'Montserrat', sans-serif;
 }
-
-.nav .nav-link {
-  color: #fff !important;
-}
-
-.nav1 .nav-link {
-  padding-right: 55px !important;
-}
-
-.nav-bar {
-  margin-bottom: 0;
-  padding: 10px;
-}
-
-.nav-bar .image1 {
-  position: absolute;
-  height: 73px;
-  width: 270px;
-}
-
-hr {
-  border-top: 1.2px solid #eba12a;
-}
-
-#feedback {
+.center-heading-text{
   text-align: center;
-  letter-spacing: 0.05em;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 50px;
-  color: #232322;
-}
-
-.container .contact_head {
-  letter-spacing: 0.1em;
-  font-style: normal;
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 85px;
-  font-family: Montserrat;
-  color: #232322;
-}
-
-.container .nav {
-  background-color: #fff !important;
-}
-
-.container .nav-link {
-  color: black !important;
-}
-
-.container.navbar-toggler {
-  background-color: black !important;
-}
-
-.info {
-  letter-spacing: 0.1em;
-  top: 100px;
-  font-family: Montserrat;
-}
-
-.footer {
-  bottom: 0;
-  background-color: #aaaa55;
-  justify-content: center;
-  color: #fff;
-}
-
-.foot .nav {
-  background-color: #aaaa55 !important;
-}
-
-.foot .nav .nav-item .nav-link {
-  color: #fff !important;
-  text-align: left !important;
-  float: left !important;
-}
-
-.foot-input {
-  font-family: Montserrat;
-  top: 30px;
-}
-
-.foot-input button {
-  color: #fff;
-  background-color: #eba12a;
-}
-
-.info-foot {
-  font-family: Montserrat;
-}
-
-.foot .nav img {
-  height: 50px;
-  width: 80px;
 }
 
 .center-contact-page{
   margin-left: 10vh;
   margin-right: 10vh;
+}
+@media screen and (max-device-width: 800px), screen and (max-width:800px) {
+  .center-contact-page{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+}
+
+.containercontact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+@media screen and (max-device-width: 800px), screen and (max-width:800px) {
+  .containercontact{
+    grid-template-columns: 1fr;
+  }
+}
+
+#contact-sub-header{
+  margin-bottom: 3rem; 
+}
+.address-info{
+  margin: auto 0;
+  line-height: 2rem;
+}
+
+.mini-header-size{
+  font-size: 1.4rem;
+}
+.medium-header-size{
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  font-weight: 700;
+  margin: 1rem 0;
+
+
 }
 
 #map{
@@ -122,10 +63,15 @@ hr {
 }
 .contact-form-button{
   background-color: #eba12a; width: 100%; border-radius: 5px;
+  padding: 5%;
+  margin: 4% 0;
 }
 .textarea-border-fit{
     width: 100%;
     height: auto;
+}
+.input-padding{
+  padding: 4%;
 }
 .names{
   display: flex;
@@ -140,6 +86,7 @@ hr {
   width: 100%;
 }
 #contact-form-vertical{
+  font-size: 120%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -154,4 +101,8 @@ hr {
 }
 .position-map{
   width: 100%;
+  border-top: 2px solid #ce9f53;
+}
+#top-nav-rem-mag{
+  margin-bottom: 0;
 }
