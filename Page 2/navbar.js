@@ -15,9 +15,9 @@ function navSlide() {
       if (link.style.animation) {
         link.style.animation = '';
       } else {
-        link.style.animation = `navLinkFade .5s ease-in-out forwards ${index /
-          7 +
-          1}s`;
+        link.style.animation = `navLinkFade .5s ease-in-out forwards ${
+          index / 7 + 1
+        }s`;
       }
     });
 
