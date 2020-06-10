@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location and Contact</title>
+    <link rel="stylesheet" href="location.css">
+    <script src="https://kit.fontawesome.com/25fffa082a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <!--The div element for the map -->
+      <div class="mapouter">
+       <div class="gmap_canvas">
+         <iframe 
+          width="1500" 
+          height="642" 
+          id="gmap_canvas" 
+          src="https://maps.google.com/maps?q=lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+          <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">
+          </a>
+          </div>
+          <style>
+          .mapouter{
+            position:relative;
+            text-align:right;
+            height:642px;
+            width:1500px;
+            margin: auto;
+          }
+          .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:642px;
+            width:1500px;
+          }
+          </style>
+      </div>
+     <!--Load the API from the specified URL
+     * The async attribute allows the browser to render the page while the API loads
+     * The key parameter will contain your own API key (which is not needed for this tutorial)
+     * The callback parameter executes the initMap() function
+     -->
+     <div class="under ">
+         <div class="address">
+          <p class="one">Address</p>
+          <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+          Cumque molestiae rerum, nihil,<br>
+          tempora ut rem commodi sint reiciendis et,<br>
+          illum consequuntur vero nisi iure ipsam ea<br> 
+          officiis libero cum! Architecto!
+          </p>
+         </div>
+         <div class="contacts">
+          <p class="one">Contact Details</p>
+          <p class="lorem"><i class="fas fa-phone icons"></i> +901 244 6653 662</p>
+          <p class="lorem"><i class="far fa-envelope"></i> hotelgryffindor@gmail.com</p>
+          </div>
+         <div class="email">
+          <p class="one">Email Address </p>
+          <input type="email" class="input" placeholder="Email Address">
+         </div>
+         <div class="message">
+          <p class="one">Leave a message for us</p>
+          <input type="text" class="messagetext" placeholder="Message" ><br>
+          <button><p class="text">Send Message</p></button> 
+         </div>
+     </div>
+</body>
+</html>
