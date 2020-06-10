@@ -1,16 +1,9 @@
-/* * {
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-}
-
-body {
-    margin: 0 ;
-    padding: 0 ;
-} */
-
-/* creates a margin between sections */
 .intro {
   margin-top: 6em;
+}
+
+.features {
+  background-color: rgba(25, 19, 65, 0.1);
 }
 
 .first-page-main h1,
@@ -61,12 +54,12 @@ body {
 }
 
 .see-rates-button {
-  position:relative;
+  position: relative;
   bottom: 70px;
   right: 90px;
 }
 
-.see-rates-button a{
+.see-rates-button a {
   display: inline-block;
   padding: 8px 16px;
   margin: 8px;
@@ -74,7 +67,7 @@ body {
   background: #191341;
   border-radius: 7px;
   text-decoration: none;
-} 
+}
 
 .first-page__rooms h1 {
   font-size: 24px;
@@ -100,8 +93,8 @@ body {
 .first-page__features {
   background: rgba(25, 19, 65, 0.1);
   width: 100%;
-  padding:0 ;
-  margin:0 ;
+  padding: 0;
+  margin: 0;
 }
 
 #feature-head {
@@ -170,10 +163,10 @@ body {
   }
 
   .see-rates-button {
-    position:relative;
+    position: relative;
     bottom: 70px;
     right: 130px;
-}
+  }
 
   .first-page-main h1 {
     display: block;
@@ -254,7 +247,6 @@ body {
     margin: 0;
     padding: 0;
   }
-
 
   .grid {
     display: grid;
