@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us- Royals Hotels & Resorts</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+
+  <body>
+    <div class="navbar__menu">
+      <div class="container">
+        <nav>
+          <div class="navbar__container">
+            <img src="./img/logo.png" alt="" class="logo img-fluid" />
+            <input type="checkbox" name="" id="chk" />
+            <label for="chk" class="show__menu__button">
+              <i class="fa fa-navicon"></i>
+            </label>
+            <ul class="navbar__menu__container">
+              <li><a href="#" class="navbar-link">HOME</a></li>
+              <li><a href="#" class="navbar-link">ROOMS & RATES</a></li>
+              <li><a href="#" class="navbar-link">FACILITIES</a></li>
+              <li><a href="#" class="navbar-link active">CONTACT US</a></li>
+              <li><a href="#" class="navbar-link">ABOUT US</a></li>
+              <label for="chk" class="hide__menu__button">
+                <i class="fa fa-times"></i>
+              </label>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <header class="header text-center text-light">
+      <div class="container py-5">
+        <div class="row mt-5">
+          <div class="col-md-12 mt-5">
+            <h1>
+              <span class="h5 text-warning">GET IN TOUCH</span><br />
+              <span class="h2 font-weight-bold">CONTACT US</span>
+            </h1>
+            <p>
+              <span>Home</span>
+              <span><i class="fa fa-chevron-right"></i></span>
+              <span>Contact Us</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mb-5">
+      <div class="container mt-2">
+        <div class="my-5 text-center">
+          <h2 class="text-dark">Get in Touch</h1>
+          <p>
+            We all live in an age that belongs to the young at heart. Life
+            that is becoming extremely fast
+          </p>
+        </div>
+
+        <div class="map" id="googlemap"></div>
+
+        <section class="mb-5 form-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 contact-form text-light p-4">
+                <form action="#" class="pl-md-3">
+                  <h3 class="lead mb-4">Send us a Message</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="name">FULL NAME</label>
+                        <input type="text" class="form-control rounded-0 bg-transparent" placeholder="Full Name" id="name" name="name"
+                          required />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="contact-email">EMAIL ADDRESS</label>
+                        <input type="email" class="form-control rounded-0 bg-transparent" id="contact-email" placeholder="name@example.com" name="contact_email" required>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" class="form-control rounded-0 bg-transparent" placeholder="Phone Number" id="phone" name="phone"
+                          required />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="contact-name">COMPANY NAME</label>
+                        <input type="text" class="form-control rounded-0 bg-transparent" id="company-name" placeholder="Your Company Name" name="company_name" required>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row d-flex no-gutters">
+                    <div class="form-group col-lg-9">
+                      <label for="message">MESSAGE</label>
+                      <textarea class="form-control bg-transparent rounded-0 contact-form__message" placeholder="You Message Here"
+                        name="message" id="message" required></textarea>
+                    </div>
+                    <div class="form-group align-self-end col-lg-3 pl-lg-3">
+                      <button class="btn btn-warning btn-block rounded-0 text-light">
+                        Send <i class="fa fa-paper-plane"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-md-4 py-5 px-4 contact-info">
+                <h3 class="lead mb-3 text-dark">Contact Information</h3>
+                <p>
+                  <span class="text-warning align-middle mr-2">
+                    <i class="fa fa-phone fa-2x"></i>
+                  </span>45, Johnson avenue, Ikoyi, Lagos State.
+                </p>
+                <p>
+                  <span class="text-warning align-middle mr-2">
+                    <i class="fa fa-envelope fa-2x"></i>
+                  </span>email@royals.com
+                </p>
+                <p>
+                  <span class="text-warning align-middle mr-2">
+                    <i class="fa fa-phone fa-2x"></i>
+                  </span>+234 92 5248 6352
+                </p>
+                <nav class="nav">
+                  <a href="#" class="text-warning mr-2">
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-warning mr-2">
+                    <i class="fa fa-twitter fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-warning mr-2">
+                    <i class="fa fa-linkedin-square fa-2x"></i>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-6 mb-4">
+            <p class="h2 mb-0 text-light footer__logo">ROYALS</p>
+            <p class="small text-light">HOTELS & RESORTS</p>
+            <p class="mb-4">
+              We inspire and reach millions of travelers across 90 local
+              websites
+            </p>
+            <nav class="nav">
+              <a href="#" class="nav-link pl-0 pr-1 text-warning">
+                <i class="fa fa-instagram fa-2x"></i>
+              </a>
+              <a href="#" class="nav-link pr-1 text-warning">
+                <i class="fa fa-twitter fa-2x"></i>
+              </a>
+              <a href="#" class="nav-link pr-1 text-warning">
+                <i class="fa fa-linkedin-square fa-2x"></i>
+              </a>
+            </nav>
+          </div>
+          <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+            <h5 class="font-weight-bold text-light">NAVIGATIONAL LINKS</h5>
+            <div class="row">
+              <nav class="nav flex-column col">
+                <a href="#" class="nav-link footer__link">Home</a>
+                <a href="#" class="nav-link footer__link">Feature</a>
+                <a href="#" class="nav-link footer__link">Services</a>
+                <a href="#" class="nav-link footer__link">Portfolio</a>
+              </nav>
+              <nav class="nav flex-column col">
+                <a href="#" class="nav-link footer__link">Team</a>
+                <a href="#" class="nav-link footer__link">Pricing</a>
+                <a href="#" class="nav-link footer__link">Blog</a>
+                <a href="#" class="nav-link footer__link">Contact</a>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+            <h5 class="font-weight-bold text-light">NEWSLETTER</h5>
+            <p>
+              For business professionals caught between high OEM price and
+              mediocre print and graphic output
+            </p>
+            <form action="#">
+              <div class="form-group">
+                <div class="input-group mt-3">
+                  <label for="subscriber-email" class="sr-only"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control border border-light bg-transparent"
+                    id="subscriber-email"
+                    aria-describedby="emailHelp"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <div class="input-group-append">
+                    <button
+                      class="btn bg-warning rounded-0 text-light border"
+                      type="submit"
+                      id="subscriber-submit"
+                    >
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-6 mb-4">
+            <h5 class="font-weight-bold text-light">INSTAFEEDS</h5>
+            <div>
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+              <img
+                src="./img/feed.png"
+                alt="instagram feeds"
+                class="m-1 footer__feeds"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript">
+      jQuery(function ($) {
+        // Google Maps Code
+        var googlemap = new google.maps.Map(
+          document.getElementById('googlemap'), {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        );
+      });
+    </script>
+  </body>
+</html>
