@@ -1,0 +1,103 @@
+.booking {
+  padding: 1em;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 10px;
+  width: 70vw;
+}
+
+/* .booking h4 {
+    align-self: start;
+  } */
+.booking h4 {
+  align-self: center;
+}
+
+.booking-info {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.room-type,
+.check-in,
+.check-out,
+.guests {
+  border: 2px solid rgba(119, 117, 117, 0.521);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.7em;
+  background-color: white;
+  padding: 10px;
+}
+
+.booking-info input {
+  background-color: white;
+}
+
+.booking .availability {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  /* height: 40px; */
+  align-self: center;
+  transition: background-color 0.4s, color 0.4s;
+  border-radius: 10px;
+}
+
+.booking .availability:hover {
+  background-color: white;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media only screen and (max-width: 1100px) {
+  .booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* height: 70vh; */
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: inline;
+  }
+
+  .booking-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .room-type,
+  .check-in,
+  .check-out,
+  .guests {
+    border: 2px solid rgba(119, 117, 117, 0.521);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.7em;
+    /* height: 80px; */
+    padding: 10px;
+    width: 50vw;
+  }
+}
