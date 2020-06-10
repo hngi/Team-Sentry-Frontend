@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-section {
+  padding: auto 10px;
+  margin-top: 50px;
+}
+.welcome-section h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #eba12a;
+  padding: 0.6em 0.3em;
+}
+
+.pic-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pic-image {
+  width: 20rem;
+}
+.flex-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: initial;
+}
+.heading-tertiary {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8em;
+  padding: 0 0.7em;
+  margin: 1.5em 0;
+  margin-bottom: 1em;
+}
+.flex-2-image {
+  width: auto;
+}
+.first-p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  padding: 0 2em;
+  text-align: justify;
+  max-width: 578px;
+  line-height: 25px;
+  margin-bottom: 0.7em;
+}
+@media (max-width: 500px) {
+  .first-p {
+    margin: 1.5em 0;
+    max-width: 400px;
+    font-weight: 300px;
+    font-size: 15px;
+  }
+  .pic-image {
+    width: 25rem;
+    /* margin: 20px; */
+  }
+  .flex-2-image {
+    width: 25rem;
+  }
+}
