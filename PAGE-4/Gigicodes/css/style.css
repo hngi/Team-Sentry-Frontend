@@ -1,0 +1,215 @@
+/* ----Fonts---- */
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Light.ttf);
+}
+@font-face {
+    font-family: CrimsonText-bold;
+    src: url(CrimsonText-Bold.ttf);
+}
+    
+body {
+    font-family: Poppins;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin: auto;
+}
+/* ----Dark-Green color---- */
+.primary {
+    color: #035951;
+} 
+/*----Top Part of the page----*/
+.container {
+    margin: 0 40px;
+}
+/*----Main-Header----*/
+.header {
+    font-size: 20px;
+    font-family: Poppins , sans-serif;
+    text-transform: uppercase;
+    color: #8c8c8c;
+}
+/*----The little line below the header----*/
+hr {
+    border-top: 4px solid #A67153;
+    width: 100px;
+    float: left;
+    margin: -10px 0;
+}
+/*----The other little headers----*/
+.small-header {
+    font-family: CrimsonText-bold, serif;
+    font-size: 21px;
+}
+/*----For email  and location input boxes----*/
+.input {
+    width: 40%;
+    height: 16px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+.spaced {
+    margin: 0 0 0 40px;
+}
+/*----buttons to submit inputs----*/
+.button1 {
+    background-color: #035951;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 4px;
+    outline: none;
+    font-size: 18px;
+    padding: 5px;
+    width: 30%;
+    border: none;
+    height: 45px;
+}
+/*----Embedded google map----*/
+#map {
+    width: 100%;
+    margin: 30px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px grey;
+}
+.map-container {
+    margin: 0 70px 0 70px;
+}
+/*----This is the container of the address, contact & details ,email and message textarea----*/
+#details {
+    margin: 0 70px;
+}
+/*----This is the icons class----*/
+.i {
+    margin-right: 10px;
+}
+/*----the table columns----*/
+td {
+    padding: 5px 0;
+    margin: 10px;
+    text-align: left;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 10px 0;
+}
+/*----I had to make the length of the text in the table column shorter----*/
+.address {
+    padding: 0 100px 0 0;
+}
+/*----For the spacing between the telephone number and email address----*/
+.cd {
+    line-height: 40px;
+}
+/*----The textarea for the "Leave A Message For Us"----*/
+.message {
+    padding: 30px;
+    border-radius: 4px;
+    margin: 20px 0;
+    height: 170px;
+    resize: none;
+    width: 90%;
+    outline: none;
+}
+/*----And finally the button to send a message----*/
+.button2 {
+    background-color: #035951;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+    height: 45px;
+    margin: 20px 0;
+    padding: 5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.button2:hover {
+    background-color: #0d9285;
+    border: 2px solid #0d9285;
+}
+
+.button2:focus {
+    background-color: #035651;
+    border: 2px #035651;
+}
+
+.button2:disabled {
+    background-color: #9feee9;
+    border: 2px  #9feee9;
+}
+/*---Media Queries for Smaller Screens and mobile ie 700px and below----*/
+@media  only screen and (max-width:700px) {
+    body {
+        font-size: 13px;
+    }
+    .header {
+        font-size: 16px;
+    }
+    hr {
+        width: 55px;
+    }
+    .container {
+       float: left;
+       padding: 0;
+    }
+    td, tr {
+        display: block;
+        width: 100%;
+    }
+    .map-container {
+        margin: 0 30px 0 30px;
+    }
+    .spaced {
+        display: block;
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+    .button2{
+        padding: 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .button1 {
+        padding: 10px;
+        width: 80%;
+        font-size: 12px;
+        height: 30px;
+        text-align: center;
+    }
+    .input {
+        width: 90%;
+    }
+    #details {
+        margin: 0 43px 0 20px;
+    }
+}
+/*----Media Queries for Tablets and Ipads----*/
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    hr {
+        width: 70px;
+    }
+    table ,tr {
+        display: grid;
+        grid-row: 1fr 1fr 1fr;
+    }
+}
+/*----Media Queries For DEsktops----*/
+@media only screen and (min-width: 1024px) {
+    .header {
+        font-size: 25px;
+    }
+    .small-header {
+        font-size: 25px;
+    }
+    tr,td {
+        padding: 0;
+    }
+}
