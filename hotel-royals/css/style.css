@@ -383,108 +383,6 @@ EVEN__FACILITIES FOR THE 2ND AND LAST DIV
   font-size: 14px;
 }
 
-/* FOOTER STYLINGS */
-.footer__area {
-  padding: 40px 0 0 0;
-  background: #412a1e;
-  color: #b5b5b5;
-  margin-top: 70px;
-}
-.footer__area .footer__header h4 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 20px;
-}
-.footer__area .logo__header {
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-.footer__area .logo__header h4 {
-  margin-bottom: 0;
-  font-size: 30px;
-  font-family: 'Chakra Petch', sans-serif;
-}
-.footer__area .logo__header p {
-  margin: 0;
-  font-size: 10px;
-  line-height: 0;
-  padding-left: 5px;
-  font-family: 'Chakra Petch', sans-serif;
-}
-.footer__area .logo__body p {
-  margin-bottom: 30px;
-}
-.footer__area .logo__body .logo__share__icons a {
-  color: #e6b922;
-  padding: 10px 3px;
-  font-size: 26px;
-}
-.footer__area .footer__links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer__area .footer__links .first__set,
-.footer__area .footer__links .second__set {
-  width: 45%;
-}
-.footer__area .footer__links .empty__space {
-  width: 10%;
-}
-.footer__area .footer__links .first__set ul,
-.footer__area .footer__links .second__set ul {
-  list-style-type: none;
-}
-
-.footer__area .footer__links .first__set ul li,
-.footer__area .footer__links .second__set ul li {
-  margin-bottom: 10px;
-}
-
-.footer__area .footer__links .first__set ul li a,
-.footer__area .footer__links .second__set ul li a {
-  color: #b5b5b5;
-  text-decoration: none;
-}
-.footer__area .footer__body .form-field {
-  position: relative;
-  /* z-index: 1; */
-}
-.footer__area .footer__body input {
-  padding: 0.5rem 1.4rem 0.8rem 1.4rem;
-  width: 100%;
-  height: 40px;
-  border-radius: 0;
-  background-color: transparent;
-  border: 0.5px solid #e5e5e5;
-  font-size: 16px;
-  padding: 0 10px;
-  color: #b5b5b5;
-}
-.footer__area .footer__body .form-field button {
-  position: absolute;
-  padding: 7px 10px 10px 10px;
-  border-radius: 0;
-  background-color: #e6b922;
-  font-size: 16px;
-  color: #fff;
-  height: 40px;
-  top: 0;
-  right: 0;
-  border: 0.5px solid #e5e5e5;
-  border-left: none;
-  cursor: pointer;
-  transition: all 500ms;
-  outline: none;
-}
-.footer__area .footer__feed img {
-  height: 30px;
-  width: 40px;
-  margin: 1%;
-}
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 972px) {
   .show__menu__button,
@@ -642,7 +540,6 @@ textarea.form-control.contact-form__message {
 /* Contact Page Styles */
 
 /* Footer Styles */
-
 .footer {
   background-color: #412a1e;
   color: #b5b5b5;
