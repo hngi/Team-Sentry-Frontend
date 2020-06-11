@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -8,7 +14,7 @@ a {
 
 .main__frame {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 728px;
   background-image: url("../img/Rectangle1.png");
   background-repeat: no-repeat;
   object-fit: cover;
@@ -37,7 +43,8 @@ a {
 .sub-main .sub-nav {
   display: flex;
   flex-direction: column;
-  min-height: 90vh;
+  height: 43em;
+  position: relative;
 }
 
 .sub-nav .para {
@@ -45,8 +52,35 @@ a {
   text-align: center;
   justify-self: center;
   color: white;
-  font-size: 1.5em;
-  margin-top: 3vh;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  margin-top: 5em;
+  margin-right: 0px;
+}
+
+.sub-nav .para h1 {
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.sub-nav .para > p {
+  width: 80%;
+  height: 58px;
+
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin: 0 auto;
+  color: #FFFFFF;
 }
 
 /* Booking and Toggle button */
@@ -66,8 +100,7 @@ a {
   color: black;
   padding: 10px;
   transition: color 0.4s;
-  visibility: hidden;
-
+  display: none;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -153,7 +186,7 @@ nav .navBrand {
   /* font-family: Calibri; */
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 36px;
   line-height: 70px;
   color: #ffff;
   z-index: 2;
@@ -176,8 +209,9 @@ li a {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 8px 17px;
+  text-decoration: none !important;
 }
 
 li a:hover {
@@ -327,7 +361,7 @@ li a:hover {
   .sub-nav .para {
     /* display: none; */
     font-size: 2.5em;
-    margin-top: 10em;
+    margin-top: 1.5em;
   }
 
   nav {

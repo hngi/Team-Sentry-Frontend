@@ -85,89 +85,40 @@
                   left home
                 </p>
               </div>
-              <input class="toggle" type="button" value="Book a room" />
 
               <!-- DROPDOWN TOGGLE BUTTON END -->
+              <div class="booking__section">
+                <div class="booking__heading"> <h4>Quicking Booking</h4></div>
+                <div class="booking">
+                  <div class="booking-info">
 
-              <div class="booking">
-                <h4>Quick Booking</h4>
-
-                <div class="booking-info">
-                  <div>
-                    <div class="room-type">
+                    <div class="room-type col-lg-2 col-md-2">
                       <p>Room Type</p>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-default dropdown-toggle"
-                          type="button"
-                          id="dropdownMenuButton"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                        >
-                          Standard
-                        </button>
-                        <div
-                          class="dropdown-menu"
-                          aria-labelledby="dropdownMenuButton"
-                        >
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#"
-                            >Something else here</a
-                          >
-                        </div>
-                      </div>
+                      <p class="tx">standard  <span> <i class="fas fa-angle-down"></i></span></p> 
+                     
                     </div>
-                  </div>
-
-                  <div class="check-in">
-                    <p>Check In</p>
-                    <input type="date" />
-                  </div>
-
-                  <div class="check-out">
-                    <p>Check Out</p>
-                    <input type="date" />
-                  </div>
-
-                  <div>
-                    <div>
-                      <div class="guests">
-                        <p>Guests</p>
-                        <div class="dropdown">
-                          <button
-                            class="btn btn-default dropdown-toggle"
-                            type="button"
-                            id="dropdownMenuButton"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                          >
-                            No. of Adults
-                          </button>
-                          <div
-                            class="dropdown-menu"
-                            aria-labelledby="dropdownMenuButton"
-                          >
-                            <a class="dropdown-item" href="#">1 Adult</a>
-                            <a class="dropdown-item" href="#">2 Adults</a>
-                            <a class="dropdown-item" href="#">3 Adults</a>
-                            <label>Specify:</label>
-                            <input
-                              type="number"
-                              id="number_of_adults"
-                              name="number_of_adults"
-                              placeholder="Number of adults"
-                            />
-                          </div>
-                        </div>
-                      </div>
+                
+                    <div class="room-type col-lg-2 col-md-2">
+                      <p>Check In</p>
+                      <p class="tx">28/03/20 <span><i class="fas fa-angle-down"></i></span></p>
+                      
                     </div>
+
+                    <div class="room-type col-lg-2 col-md-2">
+                      <p>Check Out</p>
+                      <p class="tx">26/03/20 <span><i class="fas fa-angle-down"></i></span></p>
+                    </div>
+
+                    <div class="room-type col-lg-2 col-md-2">
+                      <p>Guests</p>
+                      <p class="tx">2 Adults <span><i class="fas fa-angle-down"></i></span></p>
+                    </div>
+
+                    <button class="availability">Check Availability</button>
                   </div>
-                  <button class="availability">Check Availability</button>
                 </div>
               </div>
+              
 
               <!-- BOOKING END -->
             </div>
@@ -180,69 +131,84 @@
 
     <!-- INTRODUCTION START-->
     <section class="intro">
-      <div class="first-page-main">
-        <h1>At the Edges</h1>
-        <h2>
-          Edges was born out of a burning desire to add a “Midas” touch to the
-          tourism and hospitality business in Nigeria and Africa. Edges is
-          located at a serene environment, the hotel is carefully built with
-          class. Our luxurious rooms are tailor made to bring you comfort and
-          pleasure
-        </h2>
-        <img src="./img/images/Vector.svg" alt="your-favorite-hotel" />
-      </div>
-
-      <div class="first-page__2">
-        <h1>Rooms that see to your comfort</h1>
-        <h2>
-          Enjoy ultimate relaxation in one of our 94 rooms, including 27
-          spacious suites, designed with your comfort in mind. All rooms offer
-          free high-speed wireless internet, natural light, as well as coffee
-          and tea facilities. Return after a full day of work or sightseeing and
-          unwind in style.
-        </h2>
-        <div class="rooms-grid">
-          <div class="first-page__rooms room-1">
-            <img src="./img/images/room-photo__1.svg" alt="" />
-            <div class="see-rates-button"><a href="#">See rates</a></div>
-            <h1>Standard Room</h1>
-
-            <h2><span>Bed type </span>: 1 King sized bed</h2>
-            <h2><span>Max. guest</span>: 2 Adults and a child</h2>
-            <h2><span>Size</span>: 25m2</h2>
+      <div class="container">
+        <div class="first-page-main">
+          <div class="text__content">
+            <h1>At the Edges</h1>
+            <h2>
+              Edges was born out of a burning desire to add a “Midas” touch to the
+              tourism and hospitality business in Nigeria and Africa. Edges is
+              located at a serene environment, the hotel is carefully built with
+              class. Our luxurious rooms are tailor made to bring you comfort and
+              pleasure
+            </h2>
           </div>
-
-          <div class="first-page__rooms room-2">
-            <img src="./img/images/room-photo__2.svg" alt="" />
-            <div class="see-rates-button"><a href="#">See rates</a></div>
-            <h1>Deluxe Room</h1>
-            <h2><span>Bed type</span>: 1 King sized bed</h2>
-            <h2><span>Max. guest</span>: 2 Adults and a child</h2>
-            <h2><span>Size</span>: 29m2</h2>
-          </div>
-
-          <div class="first-page__rooms room-1">
-            <img src="./img/images/room-photo__3.svg" alt="" />
-            <div class="see-rates-button"><a href="#">See rates</a></div>
-
-            <h1>Standard Deluxe Room</h1>
-            <h2><span>Bed type</span>: 2 twin or 1 King sized bed</h2>
-            <h2><span>Max. guest</span>: 2 Adults and a child</h2>
-            <h2><span>Size</span>: 48m2</h2>
-          </div>
-
-          <div class="first-page__rooms room-2">
-            <img src="./img/images/room-photo__4.svg" alt="img" />
-            <div class="see-rates-button"><a href="#">See rates</a></div>
-            <h1>Executive Room</h1>
-            <h2><span>Bed type</span>: 2 twin or 1 King sized bed</h2>
-            <h2><span>Max. guest</span>: 2 Adults and a child</h2>
-            <h2><span>Size</span>: 48m2</h2>
-          </div>
+          <img src="./img/images/Vector.svg" alt="your-favorite-hotel" />
         </div>
-      </div>
+  
+        <div class="first-page__2">
+          <div class="text__content">
+            <h1>Rooms that see to your comfort</h1>
+            <h2>
+              Enjoy ultimate relaxation in one of our 94 rooms, including 27
+              spacious suites, designed with your comfort in mind. All rooms offer
+              free high-speed wireless internet, natural light, as well as coffee
+              and tea facilities. Return after a full day of work or sightseeing and
+              unwind in style.
+            </h2>
+          </div>
+          
+          <div class="bottom__content">
+            <div class="rooms-grid">
+              <div class="first-page__rooms room-1">
+                <img src="./img/images/room-photo__1.svg" alt="" />
+                <div class="see-rates-button"><a href="#">See rates</a></div>
+                <h1>Standard Room</h1>
+  
+                <h2><span>Bed type </span>: 1 King sized bed</h2>
+                <h2><span>Max. guest</span>: 2 Adults and a child</h2>
+                <h2><span>Size</span>: 25m2</h2>
+              </div>
+  
+              <div class="first-page__rooms room-2">
+                <img src="./img/images/room-photo__2.svg" alt="" />
+                <div class="see-rates-button"><a href="#">See rates</a></div>
+                <h1>Deluxe Room</h1>
+                <h2><span>Bed type</span>: 1 King sized bed</h2>
+                <h2><span>Max. guest</span>: 2 Adults and a child</h2>
+                <h2><span>Size</span>: 29m2</h2>
+              </div>
+            </div>
+            <div class="rooms-grid">
+              <div class="first-page__rooms room-1">
+                <img src="./img/images/room-photo__3.svg" alt="" />
+                <div class="see-rates-button"><a href="#">See rates</a></div>
+    
+                <h1>Standard Deluxe Room</h1>
+                <h2><span>Bed type</span>: 2 twin or 1 King sized bed</h2>
+                <h2><span>Max. guest</span>: 2 Adults and a child</h2>
+                <h2><span>Size</span>: 48m2</h2>
+              </div>
+    
+              <div class="first-page__rooms room-2">
+                <img src="./img/images/room-photo__4.svg" alt="img" />
+                <div class="see-rates-button"><a href="#">See rates</a></div>
+                <h1>Executive Room</h1>
+                <h2><span>Bed type</span>: 2 twin or 1 King sized bed</h2>
+                <h2><span>Max. guest</span>: 2 Adults and a child</h2>
+                <h2><span>Size</span>: 48m2</h2>
+              </div>
+            </div>  
+            
+          </div>  
+          
+        </div>
+      </div>  
     </section>
+  
+      </div>
 
+      
     <div class="features">
       <div class="first-page__features">
         <h1 id="feature-head">Features</h1>
@@ -318,10 +284,10 @@
       <button class="view-all-btn">View all</button>
 
       <div class="reviews">
-        <h3 class="title">Reviews</h3>
+        <h3 class="title">Reviews</h3> -->
 
         <!-- bootsrap carousel -->
-        <div
+         <div
           id="carouselExampleIndicators"
           class="carousel slide"
           data-ride="carousel"
@@ -369,7 +335,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <footer>
       <h2>Edges</h2>
