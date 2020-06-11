@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 6, location and contacts</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- This page is built with bootstrap and 
+                it is fully responsive -->
+            <!-- This code is for the location and contact section in team E frontend -->
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                <H3 class="header">LOCATION & CONTACT</H3>
+            </div>
+        </div>
+        <div class="row">
+                    <divp class="input-group">
+                        <div class="input-group-prepend">
+                            <!-- Here i have specified two background color for different screen sizes -->
+                            <button  type="button" class="get btn btn-bg-lg-light d-md-none">Get Directions</button>
+                            <button type="button" class="get btn btn-bg-md-mosque d-none d-lg-block">Get Directions</button>
+                        </div>
+                            <input id="enter" type="text" placeholder="Enter your current location">
+                    </div>
+        </div>
+        <!-- THIS IS A ROW MADE SPECIFICALLLY FOR THE IMAGE. -->
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <img class="img-fluid" src="Rectangle 17.png" alt="location image">
+                    </div>
+                </div>
+        <!-- this contain the other part of the body -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <H3 class="address">Address</H3>
+                    <span>
+                        Lorem ipsum dolor sit amet<br>
+                        consectetur adipisicing elit.<br>
+                        Officiis, veritatis quasi. <br>
+                        Labore dicta et neque pariatur
+                    </span>
+                </div>
+                <div id="details" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <H3 class="contact">Contact Details</H3>
+                    <span>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <label for="number">+ 901 244 6653 662</label><br>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <label>hotelgryffindor@gmail.com</label>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <H3 class="email">Email Address</H3><br>
+                        </div>
+                        <input type="email" id="email-input" class="form-control" name="" id="email" required placeholder="Email Address">
+                    </div>
+                </div>
+            </div>
+            <div class="row text">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <H3 id="top">Leave a Message For Us</H3><br>
+                        </div>
+                            <textarea id="message" class="form-control" name="text" id="text" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <button id="button" type="button" class="btn">SEND<br> MESSAGE</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

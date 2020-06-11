@@ -1,0 +1,159 @@
+body{
+    background-repeat: no-repeat;
+    background-position: cover;
+    font-family:'poppins',serif;
+    background-color: #E5E5E5;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 2px;
+    padding: 3em;
+}
+/*****
+this is the code for positioning the image
+*/
+.header{
+    color: #595959;
+    font-size: 20pt bold;
+    padding: 0em;
+    margin: 1em;
+    font-family: 'crimsom', serif;
+}
+/* this code is for the "get direction" button, i have set the background to
+ transparent on large screens */
+.btn-bg-lg-light{
+    font-family: 'crimsom', serif;
+    font-size:15pt bolder;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #8c8c8c;
+    background-color: #036158;
+    width: 10em;
+    padding: 2em;
+    margin: 5px;
+}
+.btn-bg-lg-light{
+    font-family: 'crimsom', serif;
+    font-size:15pt bolder;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #8c8c8c;
+    background-color: #036158;
+    width: 10em;
+    padding: 2em;
+    margin: 5px;
+}
+/* This is connected to the "enter your location input field */
+.get{
+    padding: 5px;
+    padding-left: 0px;
+    margin: 16px;
+    color: #8c8c8c;
+
+}
+/* same as this */
+#enter{
+    color: #595959;
+    width: 35%;
+    min-width: 35%;
+    font-size: 14pt;
+    padding: 14px 34px;
+    margin:15px 9px;
+    border-radius: 3px;
+    border-color: #d9d9d9;
+    box-sizing: border-box;
+    border: 1px solid #8C8C8C;
+}
+/* this is for the image */
+.img-fluid{
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: fixed;
+    padding: 0rem;
+    margin: 0re;
+}
+.contact{
+    padding: 0em;
+    margin-top: 2em;
+}
+/* this is for all the H3  */
+H3{
+    font-size: bold;
+    color: #036158;
+    padding: 0em;
+    margin: 2em 0em;
+}
+span{
+    margin-bottom: 3em;
+}
+#email-input{
+    color: #595959;
+    width: 29em;
+    font-size: 14pt;
+    padding: 14px 34px;
+    margin: 10px 10px;
+    border: 1px solid #8C8C8C;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.address{
+    padding: 0em;
+    margin: 1em 0em;
+    margin-top: 2.5em;
+}
+.email{
+    margin: 1em 0em;
+    margin-top: 2em;
+}
+.fa{
+    color: red;
+    font-size: bold;
+    padding: 0px;
+    margin: 1em 0em;
+}
+#details{
+    padding: 0em;
+    margin: 1em 0em;
+}
+#top{
+    padding: 0em;
+    margin-top: 2em;
+}
+.input-group{
+    padding: 0px;
+    margin: 1em 0em;
+}
+#message{
+    padding: 0em;
+    margin: 1em 0em;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+H2{
+    padding: 0em;
+    margin: 0em;
+    font-size: bold;
+    color: #036158;
+}
+/* styles for the submit button at the bottom of the section */
+#button{
+    font-size: bold;
+    font-family: 'crimsom', serif;
+    border-radius: 5px;
+    color: white;
+    background-color: #036158;
+    width: 45%;
+    padding: 0em;
+    margin: 1em 0em;
+    text-align: center;
+}
+/* this is the hovering effect */
+#button:hover
+{
+    color: #04ceb9;
+}
+/* If i didn't leave a comment in a particular place then it is because i 
+believe it to be self explainatory.
+Please if there is a place that i didn't do well please assit me; thaSnks*/
