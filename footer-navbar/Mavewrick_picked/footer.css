@@ -35,6 +35,18 @@
 	text-decoration: none;
 }
 
+/* Contact Rectangle */
+
+.contact_styling {
+position: absolute;
+height: 70px;
+left: -4px;
+right: 0px;
+bottom: 278px;
+
+background: rgba(8, 68, 130, 0.85);
+}
+
 
 /*@media only screen and (max-width: 480px){
 	#location{
