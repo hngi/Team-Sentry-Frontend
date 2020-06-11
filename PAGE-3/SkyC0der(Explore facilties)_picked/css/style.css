@@ -47,14 +47,15 @@ a {
 
 /* Facilities Heading */
 .heading {
-  width: 85px;
+  width: 135px;
   border-bottom: 3px solid #a67153;
   margin: 2rem 0;
+  margin-left: 3%;
 }
 
 .heading h2 {
-  font-size: 20px;
-  width: 250px;
+  font-size:2rem;
+  width: 400px;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #595959;
@@ -120,6 +121,16 @@ a {
     grid-template-columns: 1fr;
     place-items: center;
   }
+
+  .heading{
+     width:85px;
+  }
+
+  .heading h2 {
+  font-size:1.2rem;
+  width: 250px;
+  }
+
   .section-right {
     grid-row: 1/2;
     width: 95%;
@@ -140,7 +151,7 @@ a {
   }
 
   .section-left p {
-    line-height: 32px;
+    line-height: 25px;
   }
 
   .text {
