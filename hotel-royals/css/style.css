@@ -17,6 +17,14 @@ a {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.booking-form .custom-select {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.booking-form .custom-select option {
+  color: #412a1e;
+}
+
 /* Colors */
 .peach {
   background: #e38383;
@@ -123,7 +131,7 @@ a {
 }
 
 /* Site Header */
-.header {
+.header--contact {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
@@ -177,7 +185,7 @@ a {
 .booking-form {
   background: #412a1e;
   position: relative;
-  top: -100px;
+  top: -80px;
   z-index: 1;
   color: #ffffff;
 }
@@ -187,8 +195,6 @@ a {
 /* TESTIMONIALS */
 .testimonial {
   background-color: rgba(229, 229, 229, 0.3);
-  /* margin: 10rem 0; */
-  /* padding: 4rem 0; */
 }
 
 .testimonial__subtitle,
@@ -223,13 +229,11 @@ a {
 
 .carousel-control-prev-icon {
   padding: 1rem;
-  /* border-radius: 50%; */
   background-image: url('../img/carousel-prev-icon.svg');
 }
 
 .carousel-control-next-icon {
   padding: 1rem;
-  /* border-radius: 50%; */
   background-image: url('../img/carousel-next-icon.svg');
 }
 
