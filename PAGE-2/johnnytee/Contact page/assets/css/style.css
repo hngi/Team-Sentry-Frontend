@@ -28,7 +28,8 @@ justify-content: center;
 .container p{
     position: relative;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 40px;
+font-size: 2.5rem;
+font-weight: 600;
 text-align: center;
 color: #151515;
 margin-top:20vh;
@@ -46,18 +47,30 @@ text-transform: uppercase;
     color: #4F4F4F;
     opacity: 0.75;
     font-family:sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 
 .main .div1 h4{
     color: #084482;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 1em;
+    font-size:1.8rem;
+    font-weight:bold;
 }
 
-.div2 input{
+.div2 input,textarea{
     width:100%;
-    padding: 0.2em 1.0em;
+    padding: 0.6em 3.8em;
+    border: 2px solid #828282;
+    border-radius: 3px;
+}
+
+.div2 textarea:focus{
+    border: 3px solid grey;
+}
+
+.div2 input:hover, .div2 textarea:hover{
+    border: 3px solid grey;
 }
 
 .div2 .flex{
@@ -66,7 +79,7 @@ text-transform: uppercase;
 }
 
 .div2 div+*{
-    margin-bottom:0.7em;
+    margin-bottom:0.9em;
 }
 
 textarea{
@@ -77,10 +90,17 @@ input[type='submit']{
     color:white;
     background: #084482;
     text-transform:uppercase;
-    width:30%;
+    width:26%;
     border:none;
     padding:0.8em;
-    margin-left:70%;
+    margin-left:74%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    font-weight: 600;
+}
+input[type='submit']:hover, input[type='submit']:focus{
+border:none;
+background-color:#063563;
 }
 
 /* for mobile view */
