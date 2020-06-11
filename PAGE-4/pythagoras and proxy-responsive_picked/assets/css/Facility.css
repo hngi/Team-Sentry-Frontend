@@ -21,7 +21,7 @@ nav{
   top:95px;
 }
 
-.navbarItem {
+/* .navbarItem {
 	display: flex;
 	justify-content: flex-end;
 	margin-right: 60px;
@@ -34,7 +34,7 @@ nav{
 	align-content: center;
 	vertical-align: : top;
 	color:#4F4F4F;
-}
+} */
 
 .logo-style{
 	display: grid;
@@ -119,6 +119,10 @@ h4{
 	right: 0;
 	bottom: 0;
 	background-color: #001326;
+}
+
+#email{
+  margin-right: 10px;
 }
 
 .column-styling {
