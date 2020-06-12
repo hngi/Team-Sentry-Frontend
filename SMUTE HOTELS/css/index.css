@@ -1,11 +1,9 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-*{
-  margin: 0;
-  padding: 0;
-}
+
 a{
   text-decoration: none !important;
 }
@@ -321,5 +319,8 @@ footer{
   background-color: sky-blue;
 }
 .form-group{
-  padding-right: 20px;
+  padding:10px 20px;
+}
+#email{
+  padding-right: 10px;
 }
