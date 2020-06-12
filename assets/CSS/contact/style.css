@@ -270,7 +270,7 @@
   
   /* navbar */
   @media screen and (max-width: 852px) {
-    nav { padding: 0 8em; position: relative;}
+    nav { padding: 0 8em;}
     .checkbtn { display: block;}
   
    nav ul {

@@ -199,7 +199,7 @@ nav li a:hover {
 
   .main__frame {
     width: 100%;
-    height: calc(85vh - 50px) !important;
+    height: calc(100vh - 50px) !important;
   }
 
   /* top icons */
