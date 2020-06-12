@@ -15,17 +15,21 @@ Hotel Royals is a responsive hotel website template.
 - Well-commented code
 - Easy Setup
 
-# Fonts
+## Fonts
 
 Google Fonts
 
 - Poppins
 - Chakra Petch
 
-# Icons
+## Icons
 
 Font Awesome Icons
 
-# Image sources
+## Image sources
 
 - Unsplash
+
+## Screenshots
+
+![Home Page](./screenshots/hotel-royals-home-page.jpg)
