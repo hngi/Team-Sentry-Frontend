@@ -19,7 +19,7 @@
 .photo-gallery .photos {
   min-height: 60vh;
   width: 100vw;
-  margin: 2em;
+  /* margin: 2em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,8 +83,8 @@
 
 .reviews {
   min-height: 30vh;
-  background-image: url("../img/hotel5.png");
-  background-attachment: fixed;
+  background-image: url("/assets/images/home/hotel5.png");
+  background-repeat: no-repeat;
   color: rgba(255, 255, 255, 0.959);
   background-size: cover;
   width: 100vw;
@@ -113,12 +113,19 @@
 }
 
 .reviews .carousel {
-  width: 80vw;
+  width: 60vw;
   min-height: 45vh;
 }
 
 .reviews .carousel p {
   text-align: center;
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+  border: 1px solid #ffffff !important;
 }
 
 /* for larger screens */
@@ -259,3 +266,5 @@ li a {
     line-height: 7px;
   }
 }
+
+
