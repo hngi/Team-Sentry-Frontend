@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+ }
+/* for the line under the heading */
+span {
+    border-bottom: 4px solid #a67153;
+    padding-bottom: .6rem;
+}
+.topic {
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    margin: 2em 1em;
+    font-size: 3rem;
+    /* font-weight: bold; */
+
+}
+/*for view more */
+.viewrooms {
+    text-align: right;
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 38px;
+    color: #A67153;
+}
+.roomh {
+    position: absolute;
+    /* left: 0%;
+    right: 58.72%;
+    top: 12.58%;
+    bottom: 81.87%; */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+}
+img {
+    
+    padding: 20px;
+}
