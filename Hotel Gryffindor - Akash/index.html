@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hotel Gryffindor - Home</title>
+    <script src="https://kit.fontawesome.com/25fffa082a.js" crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-light py-2" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <a class="navbar-brand" href="./index.html">Hotel Gryffindor</a>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-nav">
+                        <a href="./index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="navbar-nav">
+                        <a href="./aboutus.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="navbar-nav">
+                        <a href="./booking.html" class="nav-link">Rooms and Rates</a>
+                    </li>
+                    <li class="navbar-nav">
+                        <a href="./facilities.html" class="nav-link">Facilities</a>
+                    </li>
+                    <li class="navbar-nav">
+                        <a href="./contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-sm-block d-md-none">
+                <span class="open-btn" style="font-size:20px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+            </div>
+        </div>
+    </nav>
+    <div id="topnav" class="d-sm-block d-md-none">
+        <a class="ml-auto a-col-br nav-close" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <div class="p-5 text-center div-nav-mob">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-nav">
+                    <a href="./index.html" class="nav-link a-col-br active">Home</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="./aboutus.html" class="nav-link a-col-br">About Us</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="./booking.html" class="nav-link a-col-br">Rooms and Rates</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="./facilities.html" class="nav-link a-col-br">Facilities</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="./contact.html" class="nav-link a-col-br">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <!-- Beginning of Carousel Container -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!--Carousel Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <!-- Beginning of First Slide -->
+                <div class="carousel-item active">
+
+                    <!-- Beginning of welcome-Box Container -->
+                    <div class="welcome-box-container">
+                        <div class="welcome-box m-text-center">
+                            <h4 class="welcome-box-text">WELCOME TO</h4>
+                            <h1 class="hotel-text">Hotel Gryffindor</h1>
+                            <h4 class="welcome-box-text Third">Experience Life Here</h4>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                    <!-- Beginning of welcome-Box Container -->
+
+                    <img class="d-block w-100" src="images/Rectangle 2.jpg" alt="First slide">
+                </div>
+                <!-- End of First Slide -->
+
+
+
+                <!-- Beginning of Second Slide -->
+                <div class="carousel-item">
+
+                    <div class="overlay">
+                        <div class="third-box-container m-text-center">
+                            <div class="third-box">
+                                <h4 class="third-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque laborum necessitatibus,
+                                    nemo eveniet culpa doloribus mollitia voluptas quibusdam repellendus in similique
+                                    dignissimos fugit.
+                                    Alias consequuntur culpa, magnam praesentium at quis!
+                                </h4>
+                            </div>
+                        </div>
+                        <picture>
+                            <source srcset="images/palm-trees-near-buildings.jpg" media="(min-width: 578px)" />
+                            <source srcset="images/slide2-img.jpg" media="(min-width: 320px)" />
+                            <img class="d-block w-100 slide1-img" src="img/palm-trees-near-buildings.jpg"
+                                alt="example" />
+                        </picture>
+                    </div>
+                </div>
+                <!-- End of Second Slide -->
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="fas fa-angle-double-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="fas fa-angle-double-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 pt-3 pb-3 m-text-center">
+                    <h5>Hotel Gryffindor</h5>
+                </div>
+                <div class="float-right col offset-md-3 pt-3 pb-3 div-footer-links m-text-center">
+                    <p class="float-right">
+                        <a class="footer-links" href="./index.html">Home</a>
+                        <a class="footer-links pl-3" href="./aboutus.html">About Us</a>
+                        <a class="footer-links pl-3" href="./booking.html">Room and Rates</a>
+                        <a class="footer-links pl-3" href="./facilities.html">Facilities</a>
+                        <a class="footer-links pl-3" href="./contact.html">Contact Us</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr style="background-color: #fff;">
+        <div class="container">
+            <div class="row" style="justify-content: space-between;">
+                <div class="col-md-3 pt-3 pb-3 m-text-center">
+                    <p class="cpyr">HotelGryffindor © Copyright 2020</p>
+                </div>
+                <div class="col offset-md-6 pt-3 pb-3 div-footer-links m-text-center hide-in-desk">
+                    <div>
+                        <p class="float-right">
+                            <a class="footer-links" href=""><i class="fab fa-facebook-square"></i></a>
+                            <a class="footer-links pl-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="footer-links pl-3" href=""><i class="fab fa-instagram"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col offset-md-6 pt-3 pb-3 div-footer-links m-text-center hide-in-mob">
+                    <div>
+                        <p>
+                            <a class="footer-links" href=""><i class="fab fa-facebook-square"></i></a>
+                            <a class="footer-links pl-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="footer-links pl-3" href=""><i class="fab fa-instagram"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/425ce35459.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="./scripts/main.js"></script>
+    <script>
+        closeNav();
+    </script>
+</body>
+
+</html>
