@@ -7,10 +7,11 @@
 
 .booking__section {
   width: 939px;
-  height: 181px;
-  /* overflow: hidden; */
+  height: 250px;
+  position: relative;
+  z-index: 2;
   margin: 0 auto;
-  margin-top: 8em;
+  /* overflow: hidden; */
 }
 
 .booking {
