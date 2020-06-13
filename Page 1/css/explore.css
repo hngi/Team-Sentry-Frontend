@@ -90,6 +90,7 @@
   letter-spacing: 0.01em;
   margin: 1em 0;
 }
+
 .second {
   margin-top: 100px;
 }
@@ -98,6 +99,7 @@
   max-width: 350px;
   height: 400px;
 }
+
 @media (max-width: 600px) {
   .explore-gal-2 {
     height: auto;
