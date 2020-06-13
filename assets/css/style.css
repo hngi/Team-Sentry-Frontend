@@ -1,0 +1,478 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/************** KAD HEADER STYLES **************/
+
+.kad-header {
+  background-color: #FEF6EF;
+  border-bottom: 1px inset #e2e8f0; /* #FF984A; */
+  box-shadow: 0 0 5px 0px #e2e8f0;
+}
+
+.kad-header-transparent {
+  color: #3F3D56;
+}
+
+.kad-header-transparent .kad-link {
+  color: #3F3D56;
+}
+
+.kad-header {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.kad-menu-bar {
+  height: 2.5px;
+}
+
+.kad-nav-extras {
+  position: absolute;
+  right: 10%;
+}
+
+.kad-header-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.kad-header-logo a {
+  text-decoration: none;
+}
+
+.kad-nav-extras .kad-nav-button {
+  background-color: #FF984A;
+  border-color: #FEF6EF;
+  color: #FEF6EF;
+}
+
+
+/************** TOP SECTION STYLES **************/
+
+#top-section {
+  background-color: #FEF6EF;
+  color: #3F3D56;
+  padding: 5% 10%
+}
+
+.top-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.top-text {
+  margin: 3rem 0 1.5rem;
+}
+
+.top-description {
+  line-height: 2;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-img {
+  position: relative;
+  left: 10%;
+  top: -30%;
+}
+
+.btn-container {
+  align-self: flex-start;
+}
+
+.btn-container .btn {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn-container .btn-fill {
+  background-color: #ff7a59;
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.btn-container .btn-transparent {
+  background-color: transparent;
+  color:  #ff7a59;
+  border-color: #ff7a59;
+}
+
+
+
+/************** FEATURES SECTION STYLES **************/
+
+#features-section {
+  padding:5% 7% 7%;
+} 
+
+.feature-box {
+  padding: 3% 3%;
+}
+
+.feature-box .img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+} 
+
+.img-container .feature-icon {
+  width: 50%;
+}
+
+.img-container .icon-1 {
+  width: 35%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.text-container p {
+  line-height: 2;
+  color: rgb(105, 99, 99);
+}
+
+/************** MORE-FEATURES SECTION STYLES **************/
+
+#more-features {
+  background-color: #eef1f5;
+  margin-top: 2rem;
+  padding: 5% 7%;
+}
+
+#more-features .img-container {
+  display: flex;
+}
+
+#more-features .img-container .single-mock {
+  width: 50%;
+}
+
+.icon-listing {
+  display: flex;
+  flex-direction: column;
+  padding: 6% 0;
+}
+
+.icon-list-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-list-box .feature-list-text {
+  padding: 2% 5% 0;
+}
+
+.icon-list-box .feature-list-text h4, .feature-list-icon {
+  color: #3F3D56;
+}
+
+.icon-list-box .feature-list-text p {
+  font-size: 0.9rem;
+  color: #3F3D56;
+}
+
+/************** SPONSORS SECTION STYLES **************/
+
+#sponsors {
+  padding: 10% 10%;
+}
+
+.sponsors-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-box h2 {
+  color: #3F3D56
+}
+
+.sponsor-img-row {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.sponsor-img-row img.flutterwave-img {
+  width: 50%;
+  position: relative;
+  right: 15%;
+}
+
+.sponsor-img-row img.hotels-img {
+  width: 40%;
+  position: relative;
+  left: 17%;
+}
+
+.sponsored-img-row {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsored-img-row .google-img {
+  width: 40%;
+  margin-top: -5%;
+}
+
+/************** TESTIMONIAL SECTION STYLES **************/ 
+
+#testimonials {
+  padding: 10% 10%;
+  background-color: #FEF6EF;
+}
+
+.testimonial-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-head h2 {
+  color: #3F3D56;
+}
+
+.testimonial-head .sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonial-head p {
+  color: rgb(105, 104, 104);
+}
+
+.testimonial-head .divider {
+  display: inline-block;
+  width: 20%;
+  height: 1px;
+  background-color: rgb(105, 104, 104);
+  color: rgb(105, 104, 104);;
+  position: relative;
+  bottom: 6px;
+  margin: 0 1%;
+  opacity: 0.5;
+}
+
+.carousel-inner .user-img {
+  border-radius: 50%;
+  max-width: 100px;
+  text-align: center;
+  margin: 5% 0
+}
+
+.carousel-inner .testimony-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-inner .testimony-text-box p {
+  padding: 1% 20%;
+  color: rgb(105, 104, 104);
+  line-height: 2;
+}
+
+.carousel-inner .testimony-text-box h3 {
+  color: #3F3D56;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background: none;
+  color: #3F3D56;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background: none;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  color: #3F3D56;
+}
+
+/************** FOOTER SECTION STYLES **************/ 
+
+footer {
+  padding: 2rem 10%;
+  background-color: #3F3D56;
+  color: #FF7A59;
+  margin: 0;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-text h6 {
+  margin: 0;
+  color: #f5e7db;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+}
+
+.footer-icons i {
+  margin: 0 0.4rem;
+}
+
+.footer-icons a {
+  color: #FEF6EF;
+}
+
+/************** RESPONSIVE STYLES FOR MOBILE**************/ 
+
+@media (max-width: 982px) {
+  .kad-nav-extras {
+    position: relative;
+    right: 0;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  #top-section {
+    padding-bottom: 6rem;
+    padding-bottom: 10rem;
+  }
+
+  .feature-box {
+    padding: 3% 8%;
+  }
+
+  .img-container .feature-icon {
+    width: 40%;
+  }
+  
+  .img-container .icon-1 {
+    width: 25%;
+  }
+
+  .btn-container .btn {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .icon-listing {
+    padding: 10% 0;
+  }
+  
+  .icon-list-box .feature-list-text h4 {
+    font-size: 20px;
+  }
+
+  .icon-list-box .feature-list-icon i {
+    font-size: 35px;
+  }
+
+  .icon-list-box .feature-list-icon .fa-bell {
+    font-size: 50px;
+  }
+  
+  .icon-list-box .feature-list-text p {
+    font-size: 0.8rem;
+    color: #3F3D56;
+  }
+  
+  #sponsors h2 {
+    font-size: 25px;
+  }
+
+  .sponsor-img-row img.flutterwave-img {
+    width: 70%;
+    position: relative;
+    right: 5%;
+  }
+  
+  .sponsor-img-row img.hotels-img {
+    width: 60%;
+    position: relative;
+    left: 6%
+  }
+  
+  .sponsored-img-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sponsored-img-row .google-img {
+    width: 50%;
+    margin-top: -5%;
+  }
+
+  .carousel-inner .testimony-text-box p {
+    padding: 1% 3%;
+  }
+
+  .testimonial-head p {
+   font-size: 0.8rem;
+  }
+
+  .testimony-text-box p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-control-next i {
+    position: relative;
+    left: 35px;
+  }
+  
+  .carousel-control-prev i {
+    position: relative;
+    right: 35px;
+  }
+
+  .footer-text {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+  }
+
+  footer {
+    padding: 1rem 10%;
+  }
+  
+}
