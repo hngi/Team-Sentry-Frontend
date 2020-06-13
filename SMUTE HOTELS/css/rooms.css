@@ -84,6 +84,7 @@ section hr {
   display: flex;
   position: relative;
   width: 100%;
+  max-width: 100%;
 }
 
 .room-header div {
