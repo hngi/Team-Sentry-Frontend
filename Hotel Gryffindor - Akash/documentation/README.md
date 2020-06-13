@@ -1,4 +1,4 @@
-# Hotel Royals
+# Hotel Gryffindor
 
 Hotel Gryffindor is a responsive hotel website template.
 
