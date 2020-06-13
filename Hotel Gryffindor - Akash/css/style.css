@@ -1,0 +1,345 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Coloring Heading */
+.green-heading {
+    color: #036b61;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.green-heading-p {
+    color: #036b61;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/* Navigation Bar using Bootstrap */
+
+nav {
+    background-color: #f2f2f2;
+}
+
+.navbar-brand {
+    margin-right: 0rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #035951;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #614230;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #614230;
+    box-shadow: 0px 2px #614230;
+}
+
+#topnav {
+    position: fixed;
+    z-index: 9999;
+    margin-top: -50px;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.div-nav-mob {
+    padding-top: 50% !important;
+}
+
+.a-col-br {
+    color: #614230;
+    font-size: 18px !important;
+    font-weight: bold;
+    /* Animation for navigation bar in mobile */
+    text-transform: none;
+    margin: 0 20px;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    /*  */
+}
+
+/* calling keyframe for fadeIn */
+@keyframes fadeIn {
+    from {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*  */
+
+nav {
+    z-index: 1;
+}
+
+.open-btn {
+    z-index: 9999;
+}
+
+.nav-close {
+    float: right;
+    padding-top: 10px;
+    /* padding-right: 20px; */
+}
+
+/* End for Navigation Bar */
+
+/* Footer */
+footer {
+    background: #035951;
+    color: #fff;
+}
+
+.div-footer-links {
+    float: right;
+    /* margin-right: auto !important; */
+}
+
+.footer-links {
+    color: #fff;
+}
+
+.footer-links:hover {
+    color: #fff;
+}
+
+.cpyr {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.hide-in-mob {
+    display: none;
+}
+
+/* end footer */
+
+/* for index.html */
+
+/* Beginning of Carousel Section */
+.carousel {
+    height: 600px;
+}
+
+/* Beginning of Dark overlay for slide2 image */
+.overlay {
+    width: 100%;
+    height: 600px;
+    background: black;
+    overflow: hidden;
+}
+
+.overlay picture img {
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+/* End of Dark overlay for slide2 image */
+
+.d-block {
+    height: 600px;
+    width: 100%;
+}
+
+.fas {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.welcome-box-container,
+.third-box-container {
+    width: 100%;
+    height: 80%;
+    margin-top: 7%;
+    background: none;
+    position: fixed;
+}
+
+.welcome-box,
+.third-box {
+    display: flex;
+    margin: 8.5% 20%;
+    height: 70%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    letter-spacing: 0.3em;
+}
+
+.third-box {
+    margin: 10% 20%;
+    width: 50%;
+}
+
+.welcome-box-text {
+    color: #FFF;
+    margin-bottom: 3%;
+    font-size: 1.1rem;
+}
+
+.third-box-text {
+    color: #06C7B4;
+    font-size: 2.3rem;
+    margin-bottom: 3%;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem !important;
+}
+
+.Third {
+    font-size: 0.9rem;
+}
+
+.hotel-text {
+    color: #06C7B4;
+    font-family: 'Crimson Text', serif;
+}
+
+.book-button {
+    height: 60px;
+    width: 35%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #035951;
+}
+
+.book-button:hover {
+    background: #036158;
+    cursor: pointer;
+}
+
+.book-button:focus {
+    background: #036158;
+}
+
+/* End Index */
+
+
+/*This is the design for smaller screens*/
+@media screen and (max-width: 768px) {
+
+    /* for about us */
+    .mobile {
+        display: none;
+
+    }
+
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .text {
+        padding-left: 5%;
+    }
+
+    .vector {
+        padding-right: 1%;
+        padding-left: 40%;
+        position: absolute;
+        top: 300px;
+    }
+
+    /* end about us */
+
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width:578px) and (min-width:321px) {
+    .welcome-box {
+        width: 90%;
+        margin: 25% 5%;
+    }
+
+    .third-box {
+        width: 80%;
+        margin: 30% 10%;
+    }
+
+    .overlay picture source {
+        object-fit: cover;
+        opacity: 0.3;
+    }
+
+    .hotel-text {
+        font-size: 2.3rem;
+    }
+
+    .book-button {
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .m-text-center {
+        text-align: center;
+    }
+
+    .hide-in-desk {
+        display: none;
+    }
+
+    .hide-in-mob {
+        display: block;
+    }
+
+}
+
+@media (max-width:330px) and (min-width:320px) {
+    .welcome-box {
+        width: 90%;
+        margin: 30% 5%;
+    }
+
+    .third-box {
+        width: 80%;
+        margin: 30% 10%;
+    }
+
+    .overlay picture source {
+        object-fit: cover;
+        opacity: 0.3;
+    }
+
+    .hotel-text {
+        font-size: 1.7rem;
+    }
+
+    .book-button {
+        width: 50%;
+        margin-top: 10%;
+    }
+}
+
+
+/* for booking */

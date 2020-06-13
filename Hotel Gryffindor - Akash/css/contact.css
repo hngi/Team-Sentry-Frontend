@@ -1,0 +1,90 @@
+.contact-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+label {
+    padding-top: 1em;
+    color: #8c8c8c;
+}
+
+.btn {
+    width: 49%;
+    background: #035951;
+    border: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #036b61;
+}
+
+.in {
+    color: #c78863;
+}
+
+.h2-c {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #595959;
+}
+
+.shadow-c {
+    height: 4px;
+    width: 80px;
+    background-color: #c78863;
+    /* box-shadow: 0px 2px black;    */
+}
+
+.input {
+    width: 49%;
+    border: none;
+    box-shadow: 0px 2px #d9d9d9;
+}
+
+.input:focus {
+    border: none;
+}
+
+p {
+    color: #595959;
+}
+
+p.cpyr {
+    color: #fff;
+}
+
+.img-border {
+    border-radius: 10px;
+    border: none;
+}
+
+.fa-a-icon {
+    color:#595959;
+}
+
+.fa-a-icon:hover {
+    color:#595959;
+}
+
+
+
+@media (max-width: 576px) {
+    .booking-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .input {
+        width: 90%;
+        border: none;
+        box-shadow: 0px 2px #d9d9d9;
+    }
+}
+
+/* @media (min-width: 576px){
+    .booking-section{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+} */
