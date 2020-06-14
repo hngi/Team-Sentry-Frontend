@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #eba12a;
+  --footer-bg: #aaaa55;
+  --nav-link-color: #232322;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: none;
+}
+
+input::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+input[type="submit"] {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.underline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.line {
+  width: 473px;
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  transform: rotate(-44.88deg);
+  background: var(--primary-color);
+  margin: 0 2rem;
+}
+
+/* header */
+
+/* header nav */
+#header-nav {
+  background: var(--primary-color);
+}
+
+#header-nav ul {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: flex-end;
+}
+
+#header-nav a {
+  color: white;
+}
+
+#header-nav li {
+  color: white;
+  margin-left: 2rem;
+}
+
+/* main nav */
+#main-nav {
+  margin-bottom: var(--primary-color);
+}
+
+#main-nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav li {
+  margin-left: 2rem;
+}
+
+#main-nav a {
+  color: var(--nav-link-color);
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* Main */
+#facility-main {
+  min-height: 83vh;
+  background: #fff url("../assets/images/facilities_header_2.png") center center/cover;
+  position: relative;
+  display: flex;
+}
+
+#facility-main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+#facility-main .container {
+  text-align: center;
+}
+
+#facility-main * {
+  z-index: 101;
+}
+
+#facility-main h2 {
+  color: white;
+  letter-spacing: 0.15rem;
+  font-size: 3rem;
+  line-height: 6rem;
+  font-weight: 500;
+}
+
+/* Section: Overview */
+#overview {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+#overview h2 {
+  color: var(--primary-color);
+  letter-spacing: 0.15rem;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  font-weight: 500;
+}
+
+#overview .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+}
+
+#overview .item img {
+  width: 100%;
+}
+
+#overview .item p {
+  text-align: center;
+  color: #232322;
+  font-size: 1rem;
+  line-height: 28px;
+}
+
+#overview .item h3 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Section: Offer */
+#offer {
+  padding: 4rem 0;
+  background: #fff url("../assets/inside_lobby_1.png") center center/cover;
+  position: relative;
+}
+
+#offer:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+/* This is to make the text on top of the image to standout and not be dark like the background */
+#offer * {
+  z-index: 101;
+}
+
+#offer h2 {
+  color: #ffc107f0;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  z-index: 100;
+}
+
+#offer .flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+#offer h3 {
+  color: white;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+/* Footer */
+#footer-main {
+  background: var(--footer-bg);
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer-info h3 {
+  padding-bottom: 2rem;
+}
+
+#footer-main h2,
+#footer-main p {
+  padding-bottom: 1rem;
+}
+
+#footer-main .footer-sub input[type="email"] {
+  width: 300px;
+}
+
+#footer-main .footer-sub input[type="submit"] {
+  margin-left: -1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+#footer-main .footer-nav {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+#footer-main .footer-nav ul {
+  display: flex;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  justify-content: space-evenly;
+}
+
+#footer-main .footer-nav ul li {
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+#footer-main .footer-nav img {
+  background: #fff;
+  width: 120px;
+}
+
+#footer-main .footer-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* BURGER MENU FOR SMALLER DEVICE */
+.burger {
+  cursor: pointer;
+  display: none;
+  z-index: 1;
+}
+
+.burger .line:first-child {
+  width: 12px;
+}
+
+.burger .line {
+  display: block;
+  background: var(--primary-color);
+  height: 2px;
+  width: 25px;
+  margin: 12px;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 850px) {
+  .burger {
+    display: block;
+    z-index: 3000;
+  }
+
+  .nav-menu {
+    width: 100vw;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    height: 100vh;
+    transform: translateY(-100%);
+    transition: transform 1s 0s ease-in-out;
+    z-index: 2000;
+  }
+
+  .nav-menu li {
+    margin: 20px;
+    opacity: 0;
+  }
+
+  .nav-active {
+    background: white;
+
+    transform: translateY(0%);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line:first-child {
+    width: 24px;
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line:last-child {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+/* FOR LARGE TABLET  */
+@media screen and (max-width: 1050px) {
+  #facility-main {
+    min-height: 88.5vh;
+  }
+  #overview .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* FOR SMALL TABLET  */
+@media screen and (max-width: 800px) {
+  #header-nav li {
+    margin-left: 1rem;
+  }
+
+  #facility-main {
+    min-height: 84.3vh;
+  }
+
+  #overview h2 {
+    font-size: 2rem;
+  }
+
+  #offer .flex-container {
+    display: block;
+    text-align: center;
+    z-index: 201;
+    position: relative;
+  }
+ 
+
+  .box {
+    width: 30px;
+    height: 20px;
+    margin: 0 2rem;
+  }
+}
+
+/* FOR MOBILE PHONES */
+@media screen and (max-width: 600px) {
+  .underline {
+    margin-bottom: 3rem;
+  }
+
+  .box {
+    height: 10px;
+    margin: 0 1rem;
+  }
+
+  /* header */
+
+  /* header nav */
+  #header-nav {
+    display: none;
+  }
+
+  /* main nav */
+  #main-nav {
+    padding: 1rem 0;
+  }
+
+  #main-nav img {
+    width: 100px;
+  }
+
+  #main-nav ul {
+    display: flex;
+  }
+
+  #main-nav li {
+    margin-left: 2rem;
+  }
+
+  #main-nav a {
+    color: var(--nav-link-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  /* Main */
+  #facility-main {
+    min-height: 92vh;
+  }
+
+  #facility-main h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  #facility-main h2 > span {
+    display: block;
+  }
+
+  /* Section: Overview */
+  #overview {
+    padding: 2rem 0;
+  }
+
+  #overview h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+  }
+
+  #overview .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Section: Offer */
+  #offer h2 {
+    color: #ffc107f0;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    z-index: 100;
+  }
+
+  #offer h3 {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  #footer-main {
+    text-align: center;
+  }
+
+  #footer-main .footer-info h3 {
+    font-size: 1.5rem;
+  }
+
+  #footer-main a,
+  #footer-main p {
+    font-size: 0.9rem;
+  }
+
+  #footer-main .footer-sub input[type="submit"] {
+    margin-top: 1rem;
+    margin-left: 0;
+    border-radius: 5px;
+  }
+
+  #footer-main .footer-nav {
+    justify-content: center;
+  }
+}
+
+/* FOR SMALL MOBILE PHONES */
+@media screen and (max-width: 350px) {
+  #footer-main .footer-sub input[type="email"] {
+    width: 250px;
+  }
+}
